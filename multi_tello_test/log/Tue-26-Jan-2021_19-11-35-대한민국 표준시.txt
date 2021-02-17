@@ -1,0 +1,232 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 19:11:35.301000
+end_time: 2021-01-26 19:11:35.345000
+duration: 0.044
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-26 19:11:40.324000
+end_time: 2021-01-26 19:11:40.343000
+duration: 0.019
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 19:11:41.336000
+end_time: 2021-01-26 19:11:41.375000
+duration: 0.039
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 19:11:41.377000
+end_time: 2021-01-26 19:11:41.416000
+duration: 0.039
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 19:11:41.419000
+end_time: 2021-01-26 19:11:50.085000
+duration: 8.666
+
+id: 5
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 19:11:52.878000
+end_time: 2021-01-26 19:11:55.591000
+duration: 2.713
+
+id: 6
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 19:11:55.670000
+end_time: 2021-01-26 19:11:58.549000
+duration: 2.879
+
+id: 7
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 19:11:58.657000
+end_time: 2021-01-26 19:12:01.302000
+duration: 2.645
+
+id: 8
+command: up 30
+response: ok
+start time: 2021-01-26 19:12:01.409000
+end_time: 2021-01-26 19:12:03.443000
+duration: 2.034
+
+id: 9
+command: go 50 0 -80 100
+response: ok
+start time: 2021-01-26 19:12:03.445000
+end_time: 2021-01-26 19:12:06.146000
+duration: 2.701
+
+id: 10
+command: flip f
+response: ok
+start time: 2021-01-26 19:12:06.147000
+end_time: 2021-01-26 19:12:09.668000
+duration: 3.521
+
+id: 11
+command: go -50 0 80 100
+response: ok
+start time: 2021-01-26 19:12:09.699000
+end_time: 2021-01-26 19:12:12.526000
+duration: 2.827
+
+id: 12
+command: go -50 0 -80 100
+response: ok
+start time: 2021-01-26 19:12:12.527000
+end_time: 2021-01-26 19:12:14.970000
+duration: 2.443
+
+id: 13
+command: flip b
+response: ok
+start time: 2021-01-26 19:12:14.971000
+end_time: 2021-01-26 19:12:18.592000
+duration: 3.621
+
+id: 14
+command: battery?
+response: 85
+
+start time: 2021-01-26 19:12:19.024000
+end_time: 2021-01-26 19:12:19.055000
+duration: 0.031
+
+id: 15
+command: land
+response: ok
+start time: 2021-01-26 19:12:19.060000
+end_time: 2021-01-26 19:12:23.078000
+duration: 4.018
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 19:11:35.301000
+end_time: 2021-01-26 19:11:35.341000
+duration: 0.04
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-26 19:11:40.324000
+end_time: 2021-01-26 19:11:40.339000
+duration: 0.015
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 19:11:41.335000
+end_time: 2021-01-26 19:11:41.377000
+duration: 0.042
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 19:11:41.378000
+end_time: 2021-01-26 19:11:41.418000
+duration: 0.04
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 19:11:41.420000
+end_time: 2021-01-26 19:11:47.631000
+duration: 6.211
+
+id: 5
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 19:11:50.092000
+end_time: 2021-01-26 19:11:52.781000
+duration: 2.689
+
+id: 6
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 19:11:52.878000
+end_time: 2021-01-26 19:11:55.641000
+duration: 2.763
+
+id: 7
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 19:11:55.670000
+end_time: 2021-01-26 19:11:58.493000
+duration: 2.823
+
+id: 8
+command: up 30
+response: ok
+start time: 2021-01-26 19:12:01.408000
+end_time: 2021-01-26 19:12:03.390000
+duration: 1.982
+
+id: 9
+command: go 50 0 -80 100
+response: ok
+start time: 2021-01-26 19:12:03.392000
+end_time: 2021-01-26 19:12:05.686000
+duration: 2.294
+
+id: 10
+command: flip f
+response: ok
+start time: 2021-01-26 19:12:05.687000
+end_time: 2021-01-26 19:12:09.309000
+duration: 3.622
+
+id: 11
+command: go -50 0 80 100
+response: ok
+start time: 2021-01-26 19:12:09.698000
+end_time: 2021-01-26 19:12:12.671000
+duration: 2.973
+
+id: 12
+command: go -50 0 -80 100
+response: ok
+start time: 2021-01-26 19:12:12.672000
+end_time: 2021-01-26 19:12:15.424000
+duration: 2.752
+
+id: 13
+command: flip b
+response: ok
+start time: 2021-01-26 19:12:15.425000
+end_time: 2021-01-26 19:12:18.995000
+duration: 3.57
+
+id: 14
+command: battery?
+response: 54
+
+start time: 2021-01-26 19:12:19.024000
+end_time: 2021-01-26 19:12:19.045000
+duration: 0.021
+
+id: 15
+command: land
+response: ok
+start time: 2021-01-26 19:12:19.052000
+end_time: 2021-01-26 19:12:23.333000
+duration: 4.281
+

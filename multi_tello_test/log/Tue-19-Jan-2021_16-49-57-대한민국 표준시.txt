@@ -1,0 +1,212 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 16:49:58.088000
+end_time: 2021-01-19 16:49:58.138000
+duration: 0.05
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-19 16:50:03.113000
+end_time: 2021-01-19 16:50:03.131000
+duration: 0.018
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-19 16:50:04.129000
+end_time: 2021-01-19 16:50:04.150000
+duration: 0.021
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-19 16:50:04.152000
+end_time: 2021-01-19 16:50:04.209000
+duration: 0.057
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-19 16:50:04.214000
+end_time: 2021-01-19 16:50:09.048000
+duration: 4.834
+
+id: 5
+command: go 0 0 80 50
+response: ok
+start time: 2021-01-19 16:50:09.230000
+end_time: 2021-01-19 16:50:12.061000
+duration: 2.831
+
+id: 6
+command: go 0 0 -80 50
+response: ok
+start time: 2021-01-19 16:50:12.108000
+end_time: 2021-01-19 16:50:14.556000
+duration: 2.448
+
+id: 7
+command: go 0 0 120 50 m3
+response: ok
+start time: 2021-01-19 16:50:14.982000
+end_time: 2021-01-19 16:50:19.464000
+duration: 4.482
+
+id: 8
+command: go 0 120 0 50
+response: ok
+start time: 2021-01-19 16:50:20.235000
+end_time: 2021-01-19 16:50:25.218000
+duration: 4.983
+
+id: 9
+command: land
+response: ok
+start time: 2021-01-19 16:50:25.302000
+end_time: 2021-01-19 16:50:29.655000
+duration: 4.353
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 16:49:58.090000
+end_time: 2021-01-19 16:49:58.120000
+duration: 0.03
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-19 16:50:03.114000
+end_time: 2021-01-19 16:50:03.125000
+duration: 0.011
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-19 16:50:04.129000
+end_time: 2021-01-19 16:50:04.138000
+duration: 0.009
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-19 16:50:04.142000
+end_time: 2021-01-19 16:50:04.195000
+duration: 0.053
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-19 16:50:04.201000
+end_time: 2021-01-19 16:50:08.117000
+duration: 3.916
+
+id: 5
+command: go 0 0 80 50
+response: ok
+start time: 2021-01-19 16:50:12.108000
+end_time: 2021-01-19 16:50:14.848000
+duration: 2.74
+
+id: 6
+command: go 0 0 120 50 m1
+response: ok
+start time: 2021-01-19 16:50:14.984000
+end_time: 2021-01-19 16:50:20.158000
+duration: 5.174
+
+id: 7
+command: go 0 -60 -60 50
+response: ok
+start time: 2021-01-19 16:50:20.236000
+end_time: 2021-01-19 16:50:23.776000
+duration: 3.54
+
+id: 8
+command: land
+response: ok
+start time: 2021-01-19 16:50:25.302000
+end_time: 2021-01-19 16:50:28.558000
+duration: 3.256
+
+------
+Drone: 3
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 16:49:58.084000
+end_time: 2021-01-19 16:49:58.100000
+duration: 0.016
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-19 16:50:03.114000
+end_time: 2021-01-19 16:50:03.158000
+duration: 0.044
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-19 16:50:04.130000
+end_time: 2021-01-19 16:50:04.176000
+duration: 0.046
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-19 16:50:04.177000
+end_time: 2021-01-19 16:50:04.221000
+duration: 0.044
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-19 16:50:04.225000
+end_time: 2021-01-19 16:50:09.169000
+duration: 4.944
+
+id: 5
+command: go 0 0 80 50
+response: ok
+start time: 2021-01-19 16:50:09.231000
+end_time: 2021-01-19 16:50:12.073000
+duration: 2.842
+
+id: 6
+command: go 0 0 -80 50
+response: ok
+start time: 2021-01-19 16:50:12.107000
+end_time: 2021-01-19 16:50:14.880000
+duration: 2.773
+
+id: 7
+command: go 0 0 120 50 m7
+response: ok
+start time: 2021-01-19 16:50:14.983000
+end_time: 2021-01-19 16:50:17.080000
+duration: 2.097
+
+id: 8
+command: go 0 -60 60 50
+response: ok
+start time: 2021-01-19 16:50:20.237000
+end_time: 2021-01-19 16:50:23.345000
+duration: 3.108
+
+id: 9
+command: land
+response: ok
+start time: 2021-01-19 16:50:25.303000
+end_time: 2021-01-19 16:50:30.077000
+duration: 4.774
+

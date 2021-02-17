@@ -1,0 +1,101 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-14 18:43:47.263000
+end_time: 2021-01-14 18:43:47.263000
+duration: 0.0
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-14 18:43:52.294000
+end_time: 2021-01-14 18:43:52.325000
+duration: 0.031
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-14 18:43:53.824000
+end_time: 2021-01-14 18:44:02.463000
+duration: 8.639
+
+id: 3
+command: mon
+response: ok
+start time: 2021-01-14 18:44:02.463000
+end_time: 2021-01-14 18:44:02.510000
+duration: 0.047
+
+id: 4
+command: go 0 0 70 80 m1
+response: ok
+start time: 2021-01-14 18:44:02.510000
+end_time: 2021-01-14 18:44:03.431000
+duration: 0.921
+
+id: 5
+command: mdirection 2
+response: ok
+start time: 2021-01-14 18:44:03.431000
+end_time: 2021-01-14 18:44:03.494000
+duration: 0.063
+
+id: 6
+command: jump 0 60 70 80 0 m1 m2
+response: error No valid marker
+start time: 2021-01-14 18:44:03.494000
+end_time: 2021-01-14 18:44:10.024000
+duration: 6.53
+
+id: 7
+command: mdirection 0
+response: ok
+start time: 2021-01-14 18:44:10.024000
+end_time: 2021-01-14 18:44:10.071000
+duration: 0.047
+
+id: 8
+command: jump -60 0 70 80 0 m2 m3
+response: error No valid marker
+start time: 2021-01-14 18:44:10.071000
+end_time: 2021-01-14 18:44:10.117000
+duration: 0.046
+
+id: 9
+command: mdirection 2
+response: ok
+start time: 2021-01-14 18:44:10.117000
+end_time: 2021-01-14 18:44:10.164000
+duration: 0.047
+
+id: 10
+command: jump 0 -60 70 80 0 m3 m4
+response: error No valid marker
+start time: 2021-01-14 18:44:10.180000
+end_time: 2021-01-14 18:44:12.258000
+duration: 2.078
+
+id: 11
+command: mdirection 1
+response: ok
+start time: 2021-01-14 18:44:12.258000
+end_time: 2021-01-14 18:44:12.320000
+duration: 0.062
+
+id: 12
+command: jump 60 0 70 80 0 m4 m1
+response: error No valid marker
+start time: 2021-01-14 18:44:12.320000
+end_time: 2021-01-14 18:44:14.398000
+duration: 2.078
+
+id: 13
+command: land
+response: ok
+start time: 2021-01-14 18:44:14.398000
+end_time: 2021-01-14 18:44:16.850000
+duration: 2.452
+

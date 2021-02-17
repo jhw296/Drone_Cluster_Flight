@@ -1,0 +1,59 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-11 18:00:11.744000
+end_time: 2021-01-11 18:00:11.747000
+duration: 0.003
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-11 18:00:16.763000
+end_time: 2021-01-11 18:00:16.794000
+duration: 0.031
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-11 18:00:18.293000
+end_time: 2021-01-11 18:00:21.083000
+duration: 2.79
+
+id: 3
+command: go 0 0 -40 100
+response: error Motor stop
+start time: 2021-01-11 18:00:21.084000
+end_time: 2021-01-11 18:00:21.235000
+duration: 0.151
+
+id: 4
+command: go 0 -20 20 100
+response: error Motor stop
+start time: 2021-01-11 18:00:21.237000
+end_time: 2021-01-11 18:00:21.388000
+duration: 0.151
+
+id: 5
+command: up 20
+response: error Motor stop
+start time: 2021-01-11 18:00:21.389000
+end_time: 2021-01-11 18:00:21.441000
+duration: 0.052
+
+id: 6
+command: go 0 20 -20 100
+response: error No valid imu
+start time: 2021-01-11 18:00:21.443000
+end_time: 2021-01-11 18:00:21.782000
+duration: 0.339
+
+id: 7
+command: land
+response: error
+start time: 2021-01-11 18:00:21.798000
+end_time: 2021-01-11 18:00:21.845000
+duration: 0.047
+

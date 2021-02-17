@@ -1,0 +1,73 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-20 19:22:46.973000
+end_time: 2021-01-20 19:22:46.987000
+duration: 0.014
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-20 19:22:52.003000
+end_time: 2021-01-20 19:22:52.036000
+duration: 0.033
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-20 19:22:53.526000
+end_time: 2021-01-20 19:22:53.570000
+duration: 0.044
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-20 19:22:53.570000
+end_time: 2021-01-20 19:22:53.618000
+duration: 0.048
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-20 19:22:53.618000
+end_time: 2021-01-20 19:22:57.340000
+duration: 3.722
+
+id: 5
+command: go 0 0 100 60 m4
+response: ok
+start time: 2021-01-20 19:22:57.340000
+end_time: 2021-01-20 19:22:58.616000
+duration: 1.276
+
+id: 6
+command: jump 40 -20 120 60 0 m4 m3
+response: ok
+start time: 2021-01-20 19:22:58.618000
+end_time: 2021-01-20 19:23:01.728000
+duration: 3.11
+
+id: 7
+command: jump 40 20 120 60 0 m3 m2
+response: ok
+start time: 2021-01-20 19:23:01.730000
+end_time: 2021-01-20 19:23:05.452000
+duration: 3.722
+
+id: 8
+command: jump 20 40 120 60 0 m2 m5
+response: ok
+start time: 2021-01-20 19:23:05.454000
+end_time: 2021-01-20 19:23:11.316000
+duration: 5.862
+
+id: 9
+command: land
+response: ok
+start time: 2021-01-20 19:23:11.317000
+end_time: 2021-01-20 19:23:15.651000
+duration: 4.334
+

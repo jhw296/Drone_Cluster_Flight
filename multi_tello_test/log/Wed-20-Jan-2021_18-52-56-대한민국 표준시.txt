@@ -1,0 +1,102 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-20 18:52:56.361000
+end_time: 2021-01-20 18:52:56.365000
+duration: 0.004
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-20 18:53:01.383000
+end_time: 2021-01-20 18:53:01.414000
+duration: 0.031
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-20 18:53:02.900000
+end_time: 2021-01-20 18:53:02.946000
+duration: 0.046
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-20 18:53:02.947000
+end_time: 2021-01-20 18:53:02.995000
+duration: 0.048
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-20 18:53:02.996000
+end_time: 2021-01-20 18:53:06.718000
+duration: 3.722
+
+id: 5
+command: go 0 0 60 100 m4
+response: error Motor stop
+start time: 2021-01-20 18:53:06.719000
+end_time: 2021-01-20 18:53:08.352000
+duration: 1.633
+
+id: 6
+command: jump 40 -25 60 100 0 m4 m3
+response: error Motor stop
+start time: 2021-01-20 18:53:08.353000
+end_time: 2021-01-20 18:53:08.503000
+duration: 0.15
+
+id: 7
+command: go 0 0 60 100 m3
+response: error Motor stop
+start time: 2021-01-20 18:53:08.505000
+end_time: 2021-01-20 18:53:08.656000
+duration: 0.151
+
+id: 8
+command: jump 40 25 60 100 0 m3 m2
+response: error Motor stop
+start time: 2021-01-20 18:53:08.658000
+end_time: 2021-01-20 18:53:08.810000
+duration: 0.152
+
+id: 9
+command: go 0 0 60 100 m2
+response: error Motor stop
+start time: 2021-01-20 18:53:08.811000
+end_time: 2021-01-20 18:53:08.962000
+duration: 0.151
+
+id: 10
+command: jump 20 40 60 100 0 m2 m5
+response: error Motor stop
+start time: 2021-01-20 18:53:08.963000
+end_time: 2021-01-20 18:53:09.115000
+duration: 0.152
+
+id: 11
+command: go 0 0 60 100 m5
+response: error Motor stop
+start time: 2021-01-20 18:53:09.116000
+end_time: 2021-01-20 18:53:09.268000
+duration: 0.152
+
+id: 12
+command: battery?
+response: 59
+
+start time: 2021-01-20 18:53:09.270000
+end_time: 2021-01-20 18:53:09.320000
+duration: 0.05
+
+id: 13
+command: land
+response: error
+start time: 2021-01-20 18:53:09.322000
+end_time: 2021-01-20 18:53:09.371000
+duration: 0.049
+

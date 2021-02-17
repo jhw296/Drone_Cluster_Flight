@@ -1,0 +1,202 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 15:16:17.311000
+end_time: 2021-01-26 15:16:17.341000
+duration: 0.03
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-26 15:16:22.350000
+end_time: 2021-01-26 15:16:22.392000
+duration: 0.042
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 15:16:23.356000
+end_time: 2021-01-26 15:16:23.410000
+duration: 0.054
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 15:16:23.411000
+end_time: 2021-01-26 15:16:23.467000
+duration: 0.056
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 15:16:23.468000
+end_time: 2021-01-26 15:16:32.079000
+duration: 8.611
+
+id: 5
+command: go 0 0 80 200
+response: out of range
+start time: 2021-01-26 15:16:33.108000
+end_time: 2021-01-26 15:16:33.202000
+duration: 0.094
+
+id: 6
+command: go 0 0 160 100 m7
+response: error No valid marker
+start time: 2021-01-26 15:16:34.119000
+end_time: 2021-01-26 15:16:36.210000
+duration: 2.091
+
+id: 7
+command: go 0 -120 0 100
+response: error Motor stop
+start time: 2021-01-26 15:16:36.214000
+end_time: 2021-01-26 15:16:37.945000
+duration: 1.731
+
+id: 8
+command: go 0 0 160 100 m3
+response: error Motor stop
+start time: 2021-01-26 15:16:37.968000
+end_time: 2021-01-26 15:16:38.099000
+duration: 0.131
+
+id: 9
+command: go 0 0 -80 100
+response: error Motor stop
+start time: 2021-01-26 15:16:38.980000
+end_time: 2021-01-26 15:16:39.117000
+duration: 0.137
+
+id: 10
+command: go 0 120 0 100
+response: error Motor stop
+start time: 2021-01-26 15:16:39.999000
+end_time: 2021-01-26 15:16:40.138000
+duration: 0.139
+
+id: 11
+command: go 0 0 80 100 m7
+response: error Motor stop
+start time: 2021-01-26 15:16:42.021000
+end_time: 2021-01-26 15:16:42.177000
+duration: 0.156
+
+id: 12
+command: land
+response: error
+start time: 2021-01-26 15:16:43.030000
+end_time: 2021-01-26 15:16:43.047000
+duration: 0.017
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 15:16:17.311000
+end_time: 2021-01-26 15:16:17.328000
+duration: 0.017
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-26 15:16:22.350000
+end_time: 2021-01-26 15:16:22.383000
+duration: 0.033
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 15:16:23.355000
+end_time: 2021-01-26 15:16:23.395000
+duration: 0.04
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 15:16:23.396000
+end_time: 2021-01-26 15:16:23.447000
+duration: 0.051
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 15:16:23.448000
+end_time: 2021-01-26 15:16:27.734000
+duration: 4.286
+
+id: 5
+command: go 0 0 80 200
+response: out of range
+start time: 2021-01-26 15:16:32.096000
+end_time: 2021-01-26 15:16:32.218000
+duration: 0.122
+
+id: 6
+command: go 0 0 -80 200
+response: out of range
+start time: 2021-01-26 15:16:33.108000
+end_time: 2021-01-26 15:16:33.137000
+duration: 0.029
+
+id: 7
+command: go 0 0 0 100 m3
+response: out of range
+start time: 2021-01-26 15:16:34.118000
+end_time: 2021-01-26 15:16:34.157000
+duration: 0.039
+
+id: 8
+command: go 0 120 0 100
+response: error Motor stop
+start time: 2021-01-26 15:16:36.215000
+end_time: 2021-01-26 15:16:37.576000
+duration: 1.361
+
+id: 9
+command: go 0 0 0 100 m7
+response: out of range
+start time: 2021-01-26 15:16:37.968000
+end_time: 2021-01-26 15:16:38.084000
+duration: 0.116
+
+id: 10
+command: go 0 0 80 100
+response: error Motor stop
+start time: 2021-01-26 15:16:38.980000
+end_time: 2021-01-26 15:16:39.053000
+duration: 0.073
+
+id: 11
+command: go 0 -120 0 100
+response: error Motor stop
+start time: 2021-01-26 15:16:39.998000
+end_time: 2021-01-26 15:16:40.124000
+duration: 0.126
+
+id: 12
+command: go 0 0 -80 100
+response: error Motor stop
+start time: 2021-01-26 15:16:41.007000
+end_time: 2021-01-26 15:16:41.143000
+duration: 0.136
+
+id: 13
+command: go 0 0 80 100 m3
+response: error Motor stop
+start time: 2021-01-26 15:16:42.022000
+end_time: 2021-01-26 15:16:42.167000
+duration: 0.145
+
+id: 14
+command: land
+response: error
+start time: 2021-01-26 15:16:43.030000
+end_time: 2021-01-26 15:16:43.083000
+duration: 0.053
+

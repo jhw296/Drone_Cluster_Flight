@@ -1,0 +1,132 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 14:49:18.421000
+end_time: 2021-01-26 14:49:18.457000
+duration: 0.036
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-26 14:49:23.449000
+end_time: 2021-01-26 14:49:23.455000
+duration: 0.006
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 14:49:24.457000
+end_time: 2021-01-26 14:49:24.478000
+duration: 0.021
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 14:49:24.481000
+end_time: 2021-01-26 14:49:24.528000
+duration: 0.047
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 14:49:24.530000
+end_time: 2021-01-26 14:49:30.453000
+duration: 5.923
+
+id: 5
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 14:49:33.265000
+end_time: 2021-01-26 14:49:35.902000
+duration: 2.637
+
+id: 6
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 14:49:36.101000
+end_time: 2021-01-26 14:49:39.219000
+duration: 3.118
+
+id: 7
+command: go 0 0 80 100 m7
+response: ok
+start time: 2021-01-26 14:49:39.250000
+end_time: 2021-01-26 14:49:40.391000
+duration: 1.141
+
+id: 8
+command: land
+response: ok
+start time: 2021-01-26 14:49:41.131000
+end_time: 2021-01-26 14:49:44.825000
+duration: 3.694
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 14:49:18.421000
+end_time: 2021-01-26 14:49:18.458000
+duration: 0.037
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-26 14:49:23.449000
+end_time: 2021-01-26 14:49:23.457000
+duration: 0.008
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 14:49:24.458000
+end_time: 2021-01-26 14:49:24.480000
+duration: 0.022
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 14:49:24.482000
+end_time: 2021-01-26 14:49:24.526000
+duration: 0.044
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 14:49:24.529000
+end_time: 2021-01-26 14:49:28.200000
+duration: 3.671
+
+id: 5
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 14:49:30.523000
+end_time: 2021-01-26 14:49:33.148000
+duration: 2.625
+
+id: 6
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 14:49:33.265000
+end_time: 2021-01-26 14:49:36.052000
+duration: 2.787
+
+id: 7
+command: go 0 0 80 100 m3
+response: ok
+start time: 2021-01-26 14:49:39.250000
+end_time: 2021-01-26 14:49:41.101000
+duration: 1.851
+
+id: 8
+command: land
+response: ok
+start time: 2021-01-26 14:49:41.132000
+end_time: 2021-01-26 14:49:44.978000
+duration: 3.846
+

@@ -1,0 +1,114 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-05 17:40:18.599000
+end_time: 2021-02-05 17:40:18.655000
+duration: 0.056
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-05 17:40:23.630000
+end_time: 2021-02-05 17:40:23.657000
+duration: 0.027
+
+id: 2
+command: battery?
+response: 56
+
+start time: 2021-02-05 17:40:25.146000
+end_time: 2021-02-05 17:40:25.180000
+duration: 0.034
+
+id: 3
+command: takeoff
+response: ok
+start time: 2021-02-05 17:40:25.181000
+end_time: 2021-02-05 17:40:31.155000
+duration: 5.974
+
+id: 4
+command: flip f
+response: ok
+start time: 2021-02-05 17:40:31.267000
+end_time: 2021-02-05 17:40:34.870000
+duration: 3.603
+
+id: 5
+command: battery?
+response: 56
+
+start time: 2021-02-05 17:40:34.872000
+end_time: 2021-02-05 17:40:34.925000
+duration: 0.053
+
+id: 6
+command: flip b
+response: ok
+start time: 2021-02-05 17:40:34.927000
+end_time: 2021-02-05 17:40:38.545000
+duration: 3.618
+
+id: 7
+command: battery?
+response: 56
+
+start time: 2021-02-05 17:40:38.547000
+end_time: 2021-02-05 17:40:38.593000
+duration: 0.046
+
+id: 8
+command: flip l
+response: ok
+start time: 2021-02-05 17:40:38.594000
+end_time: 2021-02-05 17:40:42.164000
+duration: 3.57
+
+id: 9
+command: battery?
+response: 56
+
+start time: 2021-02-05 17:40:42.165000
+end_time: 2021-02-05 17:40:42.221000
+duration: 0.056
+
+id: 10
+command: flip r
+response: ok
+start time: 2021-02-05 17:40:42.223000
+end_time: 2021-02-05 17:40:45.836000
+duration: 3.613
+
+id: 11
+command: battery?
+response: 55
+
+start time: 2021-02-05 17:40:45.838000
+end_time: 2021-02-05 17:40:45.895000
+duration: 0.057
+
+id: 12
+command: flip f
+response: ok
+start time: 2021-02-05 17:40:45.897000
+end_time: 2021-02-05 17:40:49.456000
+duration: 3.559
+
+id: 13
+command: battery?
+response: 53
+
+start time: 2021-02-05 17:40:49.458000
+end_time: 2021-02-05 17:40:49.508000
+duration: 0.05
+
+id: 14
+command: land
+response: ok
+start time: 2021-02-05 17:40:49.510000
+end_time: 2021-02-05 17:40:53.234000
+duration: 3.724
+

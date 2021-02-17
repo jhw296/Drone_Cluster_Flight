@@ -1,0 +1,211 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-03 21:05:29.166000
+end_time: 2021-02-03 21:05:29.213000
+duration: 0.047
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-03 21:05:34.186000
+end_time: 2021-02-03 21:05:34.217000
+duration: 0.031
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-02-03 21:05:35.724000
+end_time: 2021-02-03 21:05:41.818000
+duration: 6.094
+
+id: 3
+command: battery?
+response: 70
+
+start time: 2021-02-03 21:05:41.818000
+end_time: 2021-02-03 21:05:41.867000
+duration: 0.049
+
+id: 4
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:05:41.867000
+end_time: 2021-02-03 21:05:44.115000
+duration: 2.248
+
+id: 5
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:05:44.117000
+end_time: 2021-02-03 21:05:46.412000
+duration: 2.295
+
+id: 6
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:05:46.412000
+end_time: 2021-02-03 21:05:48.709000
+duration: 2.297
+
+id: 7
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:05:48.711000
+end_time: 2021-02-03 21:05:51.512000
+duration: 2.801
+
+id: 8
+command: battery?
+response: 70
+
+start time: 2021-02-03 21:05:51.512000
+end_time: 2021-02-03 21:05:51.562000
+duration: 0.05
+
+id: 9
+command: flip b
+response: ok
+start time: 2021-02-03 21:05:51.562000
+end_time: 2021-02-03 21:05:55.133000
+duration: 3.571
+
+id: 10
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:05:55.133000
+end_time: 2021-02-03 21:05:57.428000
+duration: 2.295
+
+id: 11
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:05:57.428000
+end_time: 2021-02-03 21:05:59.676000
+duration: 2.248
+
+id: 12
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:05:59.676000
+end_time: 2021-02-03 21:06:01.910000
+duration: 2.234
+
+id: 13
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:06:01.918000
+end_time: 2021-02-03 21:06:04.274000
+duration: 2.356
+
+id: 14
+command: battery?
+response: 70
+
+start time: 2021-02-03 21:06:04.276000
+end_time: 2021-02-03 21:06:04.314000
+duration: 0.038
+
+id: 15
+command: flip l
+response: ok
+start time: 2021-02-03 21:06:04.314000
+end_time: 2021-02-03 21:06:07.936000
+duration: 3.622
+
+id: 16
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:06:07.936000
+end_time: 2021-02-03 21:06:10.272000
+duration: 2.336
+
+id: 17
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:06:10.288000
+end_time: 2021-02-03 21:06:12.591000
+duration: 2.303
+
+id: 18
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:06:12.593000
+end_time: 2021-02-03 21:06:14.872000
+duration: 2.279
+
+id: 19
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:06:14.872000
+end_time: 2021-02-03 21:06:17.112000
+duration: 2.24
+
+id: 20
+command: battery?
+response: 68
+
+start time: 2021-02-03 21:06:17.112000
+end_time: 2021-02-03 21:06:17.162000
+duration: 0.05
+
+id: 21
+command: flip b
+response: ok
+start time: 2021-02-03 21:06:17.162000
+end_time: 2021-02-03 21:06:20.735000
+duration: 3.573
+
+id: 22
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:06:20.738000
+end_time: 2021-02-03 21:06:23.576000
+duration: 2.838
+
+id: 23
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:06:23.592000
+end_time: 2021-02-03 21:06:25.835000
+duration: 2.243
+
+id: 24
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:06:25.835000
+end_time: 2021-02-03 21:06:28.230000
+duration: 2.395
+
+id: 25
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:06:28.230000
+end_time: 2021-02-03 21:06:30.845000
+duration: 2.615
+
+id: 26
+command: battery?
+response: 66
+
+start time: 2021-02-03 21:06:30.847000
+end_time: 2021-02-03 21:06:30.881000
+duration: 0.034
+
+id: 27
+command: flip l
+response: ok
+start time: 2021-02-03 21:06:30.881000
+end_time: 2021-02-03 21:06:34.519000
+duration: 3.638
+
+id: 28
+command: land
+response: ok
+start time: 2021-02-03 21:06:34.521000
+end_time: 2021-02-03 21:06:37.207000
+duration: 2.686
+

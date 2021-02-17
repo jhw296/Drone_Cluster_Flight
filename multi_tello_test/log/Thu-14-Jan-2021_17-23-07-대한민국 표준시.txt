@@ -1,0 +1,52 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-14 17:23:07.760000
+end_time: 2021-01-14 17:23:07.791000
+duration: 0.031
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-14 17:23:12.782000
+end_time: 2021-01-14 17:23:12.782000
+duration: 0.0
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-14 17:23:14.313000
+end_time: 2021-01-14 17:23:19.718000
+duration: 5.405
+
+id: 3
+command: mon
+response: ok
+start time: 2021-01-14 17:23:19.718000
+end_time: 2021-01-14 17:23:19.780000
+duration: 0.062
+
+id: 4
+command: mdirection 2
+response: ok
+start time: 2021-01-14 17:23:19.780000
+end_time: 2021-01-14 17:23:19.827000
+duration: 0.047
+
+id: 5
+command: jump 70 0 50 50 0 m1 m2
+response: None
+start time: 2021-01-14 17:23:19.827000
+end_time: None
+duration: None
+
+id: 6
+command: land
+response: error Auto land
+start time: 2021-01-14 17:23:28.841000
+end_time: 2021-01-14 17:23:28.950000
+duration: 0.109
+

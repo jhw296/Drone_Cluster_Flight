@@ -1,0 +1,80 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-14 17:30:01.882000
+end_time: 2021-01-14 17:30:01.913000
+duration: 0.031
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-14 17:30:06.912000
+end_time: 2021-01-14 17:30:06.912000
+duration: 0.0
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-14 17:30:08.443000
+end_time: 2021-01-14 17:30:17.066000
+duration: 8.623
+
+id: 3
+command: mon
+response: ok
+start time: 2021-01-14 17:30:17.066000
+end_time: 2021-01-14 17:30:17.112000
+duration: 0.046
+
+id: 4
+command: mdirection 2
+response: ok
+start time: 2021-01-14 17:30:17.112000
+end_time: 2021-01-14 17:30:17.159000
+duration: 0.047
+
+id: 5
+command: go 0 0 100 50 m1
+response: ok
+start time: 2021-01-14 17:30:17.175000
+end_time: 2021-01-14 17:30:18.284000
+duration: 1.109
+
+id: 6
+command: jump 70 0 100 50 0 m1 m2
+response: ok
+start time: 2021-01-14 17:30:18.284000
+end_time: 2021-01-14 17:30:25.423000
+duration: 7.139
+
+id: 7
+command: jump 70 70 100 50 0 m2 m3
+response: error No valid imu
+start time: 2021-01-14 17:30:25.423000
+end_time: 2021-01-14 17:30:29.360000
+duration: 3.937
+
+id: 8
+command: jump 70 0 100 50 0 m3 m4
+response: error No valid imu
+start time: 2021-01-14 17:30:29.360000
+end_time: 2021-01-14 17:30:29.610000
+duration: 0.25
+
+id: 9
+command: jump 70 70 100 50 0 m4 m1
+response: error No valid marker
+start time: 2021-01-14 17:30:29.610000
+end_time: 2021-01-14 17:30:31.703000
+duration: 2.093
+
+id: 10
+command: land
+response: ok
+start time: 2021-01-14 17:30:31.703000
+end_time: 2021-01-14 17:30:35.577000
+duration: 3.874
+

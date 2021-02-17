@@ -1,0 +1,263 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-29 11:36:34.882000
+end_time: 2021-01-29 11:36:34.882000
+duration: 0.0
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-29 11:36:39.901000
+end_time: 2021-01-29 11:36:39.932000
+duration: 0.031
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-29 11:36:41.430000
+end_time: 2021-01-29 11:36:41.461000
+duration: 0.031
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-29 11:36:41.461000
+end_time: 2021-01-29 11:36:41.523000
+duration: 0.062
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-29 11:36:41.523000
+end_time: 2021-01-29 11:36:43.449000
+duration: 1.926
+
+id: 5
+command: go 0 0 100 100
+response: error Motor stop
+start time: 2021-01-29 11:36:43.527000
+end_time: 2021-01-29 11:36:43.668000
+duration: 0.141
+
+id: 6
+command: go 0 0 -100 100
+response: error Motor stop
+start time: 2021-01-29 11:36:44.543000
+end_time: 2021-01-29 11:36:44.683000
+duration: 0.14
+
+id: 7
+command: go -30 0 200 100 m5
+response: error Motor stop
+start time: 2021-01-29 11:36:45.558000
+end_time: 2021-01-29 11:36:45.699000
+duration: 0.141
+
+id: 8
+command: go 0 -40 -100 100
+response: error Motor stop
+start time: 2021-01-29 11:36:46.573000
+end_time: 2021-01-29 11:36:46.730000
+duration: 0.157
+
+id: 9
+command: flip f
+response: take off first
+start time: 2021-01-29 11:36:46.730000
+end_time: 2021-01-29 11:36:46.776000
+duration: 0.046
+
+id: 10
+command: go 0 40 100 100
+response: error Motor stop
+start time: 2021-01-29 11:36:46.776000
+end_time: 2021-01-29 11:36:46.933000
+duration: 0.157
+
+id: 11
+command: flip b
+response: take off first
+start time: 2021-01-29 11:36:46.933000
+end_time: 2021-01-29 11:36:46.980000
+duration: 0.047
+
+id: 12
+command: curve -55 -55 0 0 -100 -30 50
+response: error Motor stop
+start time: 2021-01-29 11:36:47.589000
+end_time: 2021-01-29 11:36:47.636000
+duration: 0.047
+
+id: 13
+command: curve 55 55 -30 0 100 -60 50
+response: error Motor stop
+start time: 2021-01-29 11:36:48.591000
+end_time: 2021-01-29 11:36:48.653000
+duration: 0.062
+
+id: 14
+command: go 0 0 150 100 m5
+response: error No valid imu
+start time: 2021-01-29 11:36:49.606000
+end_time: 2021-01-29 11:36:49.934000
+duration: 0.328
+
+id: 15
+command: curve 0 -55 -55 0 -100 0 50
+response: error No valid imu
+start time: 2021-01-29 11:36:50.622000
+end_time: 2021-01-29 11:36:50.903000
+duration: 0.281
+
+id: 16
+command: curve 0 -55 55 0 -100 0 50
+response: error No valid imu
+start time: 2021-01-29 11:36:51.637000
+end_time: 2021-01-29 11:36:51.871000
+duration: 0.234
+
+id: 17
+command: go 0 40 -60 100
+response: error No valid imu
+start time: 2021-01-29 11:36:52.652000
+end_time: 2021-01-29 11:36:52.996000
+duration: 0.344
+
+id: 18
+command: go 0 40 60 100
+response: error No valid imu
+start time: 2021-01-29 11:36:53.668000
+end_time: 2021-01-29 11:36:54.012000
+duration: 0.344
+
+id: 19
+command: go 0 40 -60 100
+response: error No valid imu
+start time: 2021-01-29 11:36:54.670000
+end_time: 2021-01-29 11:36:54.982000
+duration: 0.312
+
+id: 20
+command: go 0 40 60 100
+response: error No valid imu
+start time: 2021-01-29 11:36:55.685000
+end_time: 2021-01-29 11:36:56.029000
+duration: 0.344
+
+id: 21
+command: go 0 40 -60 100
+response: error No valid imu
+start time: 2021-01-29 11:36:56.701000
+end_time: 2021-01-29 11:36:57.029000
+duration: 0.328
+
+id: 22
+command: go 0 0 160 100 m5
+response: error No valid imu
+start time: 2021-01-29 11:36:57.716000
+end_time: 2021-01-29 11:36:58.044000
+duration: 0.328
+
+id: 23
+command: go 0 -40 -40 100
+response: error No valid imu
+start time: 2021-01-29 11:36:58.732000
+end_time: 2021-01-29 11:36:59.060000
+duration: 0.328
+
+id: 24
+command: go 0 0 160 100 m6
+response: error No valid imu
+start time: 2021-01-29 11:36:59.060000
+end_time: 2021-01-29 11:36:59.419000
+duration: 0.359
+
+id: 25
+command: go 0 -40 60 100
+response: error No valid imu
+start time: 2021-01-29 11:36:59.747000
+end_time: 2021-01-29 11:37:00.091000
+duration: 0.344
+
+id: 26
+command: go 0 -40 -60 100
+response: error No valid imu
+start time: 2021-01-29 11:37:00.749000
+end_time: 2021-01-29 11:37:01.108000
+duration: 0.359
+
+id: 27
+command: go 0 40 -60 100
+response: error No valid imu
+start time: 2021-01-29 11:37:01.764000
+end_time: 2021-01-29 11:37:02.124000
+duration: 0.36
+
+id: 28
+command: go 0 40 60 100
+response: error No valid imu
+start time: 2021-01-29 11:37:02.780000
+end_time: 2021-01-29 11:37:03.139000
+duration: 0.359
+
+id: 29
+command: go 0 0 160 100 m2
+response: error No valid imu
+start time: 2021-01-29 11:37:03.795000
+end_time: 2021-01-29 11:37:04.108000
+duration: 0.313
+
+id: 30
+command: curve -55 -55 -30 0 -100 0 50
+response: error No valid imu
+start time: 2021-01-29 11:37:04.811000
+end_time: 2021-01-29 11:37:05.092000
+duration: 0.281
+
+id: 31
+command: curve 55 55 30 0 100 0 50
+response: error No valid imu
+start time: 2021-01-29 11:37:05.826000
+end_time: 2021-01-29 11:37:06.107000
+duration: 0.281
+
+id: 32
+command: 0 -50 50 100
+response: unknown command: 0
+start time: 2021-01-29 11:37:06.828000
+end_time: 2021-01-29 11:37:06.875000
+duration: 0.047
+
+id: 33
+command: 0 50 50 100
+response: unknown command: 0
+start time: 2021-01-29 11:37:07.843000
+end_time: 2021-01-29 11:37:07.890000
+duration: 0.047
+
+id: 34
+command: rc 0 0 -80 60
+response: None
+start time: 2021-01-29 11:37:08.859000
+end_time: None
+duration: None
+
+id: 35
+command: battery?
+response: 86
+
+start time: 2021-01-29 11:37:20.047000
+end_time: 2021-01-29 11:37:20.079000
+duration: 0.032
+
+id: 36
+command: land
+response: error
+start time: 2021-01-29 11:37:20.079000
+end_time: 2021-01-29 11:37:20.125000
+duration: 0.046
+

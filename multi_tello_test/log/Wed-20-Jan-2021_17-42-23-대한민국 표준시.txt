@@ -1,0 +1,198 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-20 17:42:23.293000
+end_time: 2021-01-20 17:42:23.317000
+duration: 0.024
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-20 17:42:28.329000
+end_time: 2021-01-20 17:42:28.364000
+duration: 0.035
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-20 17:42:29.347000
+end_time: 2021-01-20 17:42:29.384000
+duration: 0.037
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-20 17:42:29.387000
+end_time: 2021-01-20 17:42:29.435000
+duration: 0.048
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-20 17:42:29.437000
+end_time: 2021-01-20 17:42:38.104000
+duration: 8.667
+
+id: 5
+command: go 0 0 80 100 m4
+response: ok
+start time: 2021-01-20 17:42:38.133000
+end_time: 2021-01-20 17:42:38.310000
+duration: 0.177
+
+id: 6
+command: go 40 0 0 100
+response: ok
+start time: 2021-01-20 17:42:39.564000
+end_time: 2021-01-20 17:42:41.368000
+duration: 1.804
+
+id: 7
+command: go 0 0 80 100 m3
+response: error No valid marker
+start time: 2021-01-20 17:42:41.425000
+end_time: 2021-01-20 17:42:43.563000
+duration: 2.138
+
+id: 8
+command: land
+response: ok
+start time: 2021-01-20 17:42:43.599000
+end_time: 2021-01-20 17:42:46.111000
+duration: 2.512
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-20 17:42:23.293000
+end_time: 2021-01-20 17:42:23.316000
+duration: 0.023
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-20 17:42:28.330000
+end_time: 2021-01-20 17:42:28.364000
+duration: 0.034
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-20 17:42:29.347000
+end_time: 2021-01-20 17:42:29.386000
+duration: 0.039
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-20 17:42:29.390000
+end_time: 2021-01-20 17:42:29.436000
+duration: 0.046
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-20 17:42:29.438000
+end_time: 2021-01-20 17:42:35.288000
+duration: 5.85
+
+id: 5
+command: go 0 0 80 100 m8
+response: ok
+start time: 2021-01-20 17:42:38.134000
+end_time: 2021-01-20 17:42:39.533000
+duration: 1.399
+
+id: 6
+command: go -40 0 0 100
+response: ok
+start time: 2021-01-20 17:42:39.564000
+end_time: 2021-01-20 17:42:41.319000
+duration: 1.755
+
+id: 7
+command: go 0 0 80 100 m7
+response: error No valid marker
+start time: 2021-01-20 17:42:41.426000
+end_time: 2021-01-20 17:42:43.564000
+duration: 2.138
+
+id: 8
+command: land
+response: ok
+start time: 2021-01-20 17:42:43.598000
+end_time: 2021-01-20 17:42:46.265000
+duration: 2.667
+
+------
+Drone: 3
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-20 17:42:23.293000
+end_time: 2021-01-20 17:42:23.333000
+duration: 0.04
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-20 17:42:28.329000
+end_time: 2021-01-20 17:42:28.377000
+duration: 0.048
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-20 17:42:29.349000
+end_time: 2021-01-20 17:42:29.399000
+duration: 0.05
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-20 17:42:29.400000
+end_time: 2021-01-20 17:42:29.448000
+duration: 0.048
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-20 17:42:29.450000
+end_time: 2021-01-20 17:42:33.019000
+duration: 3.569
+
+id: 5
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-20 17:42:38.134000
+end_time: 2021-01-20 17:42:38.578000
+duration: 0.444
+
+id: 6
+command: go 0 0 0 100 m1
+response: out of range
+start time: 2021-01-20 17:42:39.565000
+end_time: 2021-01-20 17:42:39.650000
+duration: 0.085
+
+id: 7
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-20 17:42:41.427000
+end_time: 2021-01-20 17:42:42.150000
+duration: 0.723
+
+id: 8
+command: land
+response: ok
+start time: 2021-01-20 17:42:43.597000
+end_time: 2021-01-20 17:42:47.199000
+duration: 3.602
+

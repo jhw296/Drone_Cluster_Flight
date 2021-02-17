@@ -1,0 +1,46 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-08 17:05:21.570000
+end_time: 2021-02-08 17:05:21.621000
+duration: 0.051
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-08 17:05:26.589000
+end_time: 2021-02-08 17:05:26.609000
+duration: 0.02
+
+id: 2
+command: battery?
+response: 17
+
+start time: 2021-02-08 17:05:28.103000
+end_time: 2021-02-08 17:05:28.140000
+duration: 0.037
+
+id: 3
+command: takeoff
+response: ok
+start time: 2021-02-08 17:05:28.141000
+end_time: 2021-02-08 17:05:37.012000
+duration: 8.871
+
+id: 4
+command: curve 51 51 0 50 51 0 50
+response: error Motor stop
+start time: 2021-02-08 17:05:37.073000
+end_time: 2021-02-08 17:05:40.432000
+duration: 3.359
+
+id: 5
+command: land
+response: error
+start time: 2021-02-08 17:05:40.434000
+end_time: 2021-02-08 17:05:40.482000
+duration: 0.048
+

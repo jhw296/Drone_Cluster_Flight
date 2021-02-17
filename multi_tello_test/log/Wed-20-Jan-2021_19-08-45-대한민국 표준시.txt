@@ -1,0 +1,102 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-20 19:08:45.098000
+end_time: 2021-01-20 19:08:45.139000
+duration: 0.041
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-20 19:08:50.121000
+end_time: 2021-01-20 19:08:50.135000
+duration: 0.014
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-20 19:08:51.644000
+end_time: 2021-01-20 19:08:51.662000
+duration: 0.018
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-20 19:08:51.663000
+end_time: 2021-01-20 19:08:51.713000
+duration: 0.05
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-20 19:08:51.714000
+end_time: 2021-01-20 19:08:57.682000
+duration: 5.968
+
+id: 5
+command: go 0 0 80 60 m4
+response: ok
+start time: 2021-01-20 19:08:57.683000
+end_time: 2021-01-20 19:08:58.651000
+duration: 0.968
+
+id: 6
+command: jump 35 -15 80 60 0 m4 m3
+response: error No valid marker
+start time: 2021-01-20 19:08:58.652000
+end_time: 2021-01-20 19:09:00.742000
+duration: 2.09
+
+id: 7
+command: go 0 0 80 60 m3
+response: error No valid marker
+start time: 2021-01-20 19:09:00.743000
+end_time: 2021-01-20 19:09:02.885000
+duration: 2.142
+
+id: 8
+command: jump 35 20 80 60 0 m3 m2
+response: error No valid marker
+start time: 2021-01-20 19:09:02.886000
+end_time: 2021-01-20 19:09:04.978000
+duration: 2.092
+
+id: 9
+command: go 0 0 80 60 m2
+response: error No valid marker
+start time: 2021-01-20 19:09:04.980000
+end_time: 2021-01-20 19:09:07.116000
+duration: 2.136
+
+id: 10
+command: jump 20 40 80 60 0 m2 m5
+response: error No valid marker
+start time: 2021-01-20 19:09:07.118000
+end_time: 2021-01-20 19:09:09.208000
+duration: 2.09
+
+id: 11
+command: go 0 0 80 60 m5
+response: error No valid marker
+start time: 2021-01-20 19:09:09.209000
+end_time: 2021-01-20 19:09:11.351000
+duration: 2.142
+
+id: 12
+command: battery?
+response: 100
+
+start time: 2021-01-20 19:09:11.352000
+end_time: 2021-01-20 19:09:11.401000
+duration: 0.049
+
+id: 13
+command: land
+response: ok
+start time: 2021-01-20 19:09:11.402000
+end_time: 2021-01-20 19:09:14.109000
+duration: 2.707
+

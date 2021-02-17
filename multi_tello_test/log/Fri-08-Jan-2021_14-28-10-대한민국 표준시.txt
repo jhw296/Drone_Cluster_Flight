@@ -1,0 +1,38 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-08 14:28:10.352000
+end_time: 2021-01-08 14:28:10.378000
+duration: 0.026
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-08 14:28:15.372000
+end_time: 2021-01-08 14:28:15.376000
+duration: 0.004
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-08 14:28:16.882000
+end_time: 2021-01-08 14:28:20.984000
+duration: 4.102
+
+id: 3
+command: curve 0 40 30 30 -10 50 60
+response: error Radius is too large!
+start time: 2021-01-08 14:28:20.985000
+end_time: 2021-01-08 14:28:21.048000
+duration: 0.063
+
+id: 4
+command: land
+response: ok
+start time: 2021-01-08 14:28:21.049000
+end_time: 2021-01-08 14:28:24.619000
+duration: 3.57
+

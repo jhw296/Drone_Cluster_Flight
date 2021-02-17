@@ -1,0 +1,102 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-20 18:48:36.745000
+end_time: 2021-01-20 18:48:36.772000
+duration: 0.027
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-20 18:48:41.772000
+end_time: 2021-01-20 18:48:41.819000
+duration: 0.047
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-20 18:48:43.292000
+end_time: 2021-01-20 18:48:43.297000
+duration: 0.005
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-20 18:48:43.298000
+end_time: 2021-01-20 18:48:43.349000
+duration: 0.051
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-20 18:48:43.350000
+end_time: 2021-01-20 18:48:47.224000
+duration: 3.874
+
+id: 5
+command: go 0 0 80 100 m4
+response: ok
+start time: 2021-01-20 18:48:47.225000
+end_time: 2021-01-20 18:48:47.381000
+duration: 0.156
+
+id: 6
+command: jump 40 -20 80 100 0 m4 m3
+response: error No valid marker
+start time: 2021-01-20 18:48:47.382000
+end_time: 2021-01-20 18:48:47.436000
+duration: 0.054
+
+id: 7
+command: go 0 0 80 100 m3
+response: error No valid marker
+start time: 2021-01-20 18:48:47.438000
+end_time: 2021-01-20 18:48:49.574000
+duration: 2.136
+
+id: 8
+command: jump 40 20 80 100 0 m3 m2
+response: error No valid marker
+start time: 2021-01-20 18:48:49.576000
+end_time: 2021-01-20 18:48:51.663000
+duration: 2.087
+
+id: 9
+command: go 0 0 80 100 m2
+response: error No valid marker
+start time: 2021-01-20 18:48:51.664000
+end_time: 2021-01-20 18:48:53.806000
+duration: 2.142
+
+id: 10
+command: jump 20 40 80 100 0 m2 m5
+response: error No valid marker
+start time: 2021-01-20 18:48:53.808000
+end_time: 2021-01-20 18:48:55.899000
+duration: 2.091
+
+id: 11
+command: go 0 0 80 100 m5
+response: error No valid marker
+start time: 2021-01-20 18:48:55.900000
+end_time: 2021-01-20 18:48:58.040000
+duration: 2.14
+
+id: 12
+command: battery?
+response: 73
+
+start time: 2021-01-20 18:48:58.041000
+end_time: 2021-01-20 18:48:58.091000
+duration: 0.05
+
+id: 13
+command: land
+response: ok
+start time: 2021-01-20 18:48:58.093000
+end_time: 2021-01-20 18:49:01.610000
+duration: 3.517
+

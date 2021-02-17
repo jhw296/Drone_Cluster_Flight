@@ -1,0 +1,113 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-03 18:01:15.221000
+end_time: 2021-02-03 18:01:15.318000
+duration: 0.097
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-02-03 18:01:25.290000
+end_time: 2021-02-03 18:01:25.393000
+duration: 0.103
+
+id: 2
+command: mon
+response: ok
+start time: 2021-02-03 18:01:26.797000
+end_time: 2021-02-03 18:01:26.837000
+duration: 0.04
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-02-03 18:01:26.838000
+end_time: 2021-02-03 18:01:26.890000
+duration: 0.052
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-02-03 18:01:26.891000
+end_time: 2021-02-03 18:01:32.142000
+duration: 5.251
+
+id: 5
+command: battery?
+response: 88
+
+start time: 2021-02-03 18:01:32.143000
+end_time: 2021-02-03 18:01:32.519000
+duration: 0.376
+
+id: 6
+command: land
+response: ok
+start time: 2021-02-03 18:01:36.038000
+end_time: 2021-02-03 18:01:39.690000
+duration: 3.652
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: None
+start time: 2021-02-03 18:01:15.221000
+end_time: None
+duration: None
+
+id: 1
+command: command
+response: ok
+start time: 2021-02-03 18:01:20.247000
+end_time: 2021-02-03 18:01:22.138000
+duration: 1.891
+
+id: 2
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-03 18:01:25.289000
+end_time: 2021-02-03 18:01:25.530000
+duration: 0.241
+
+id: 3
+command: mon
+response: ok
+start time: 2021-02-03 18:01:26.796000
+end_time: 2021-02-03 18:01:26.903000
+duration: 0.107
+
+id: 4
+command: mdirection 2
+response: None
+start time: 2021-02-03 18:01:26.905000
+end_time: None
+duration: None
+
+id: 5
+command: takeoff
+response: error
+start time: 2021-02-03 18:01:35.908000
+end_time: 2021-02-03 18:01:35.965000
+duration: 0.057
+
+id: 6
+command: battery?
+response: 86
+
+start time: 2021-02-03 18:01:35.966000
+end_time: 2021-02-03 18:01:36.010000
+duration: 0.044
+
+id: 7
+command: land
+response: error
+start time: 2021-02-03 18:01:36.038000
+end_time: 2021-02-03 18:01:36.119000
+duration: 0.081
+

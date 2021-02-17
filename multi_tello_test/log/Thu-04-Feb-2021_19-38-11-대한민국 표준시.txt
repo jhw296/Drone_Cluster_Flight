@@ -1,0 +1,46 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-04 19:38:12.008000
+end_time: 2021-02-04 19:38:12.012000
+duration: 0.004
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-04 19:38:17.031000
+end_time: 2021-02-04 19:38:17.063000
+duration: 0.032
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-02-04 19:38:18.554000
+end_time: 2021-02-04 19:38:27.210000
+duration: 8.656
+
+id: 3
+command: battery?
+response: 82
+
+start time: 2021-02-04 19:38:27.212000
+end_time: 2021-02-04 19:38:27.262000
+duration: 0.05
+
+id: 4
+command: curve 165 165 0 165 -165 0 50
+response: error Arc's length is too long!
+start time: 2021-02-04 19:38:27.292000
+end_time: 2021-02-04 19:38:27.364000
+duration: 0.072
+
+id: 5
+command: land
+response: ok
+start time: 2021-02-04 19:38:27.367000
+end_time: 2021-02-04 19:38:36.009000
+duration: 8.642
+

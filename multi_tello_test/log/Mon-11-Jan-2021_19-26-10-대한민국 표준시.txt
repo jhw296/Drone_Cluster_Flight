@@ -1,0 +1,118 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-11 19:26:10.612000
+end_time: 2021-01-11 19:26:10.779000
+duration: 0.167
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-11 19:26:15.647000
+end_time: 2021-01-11 19:26:15.677000
+duration: 0.03
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-11 19:26:16.648000
+end_time: 2021-01-11 19:26:22.611000
+duration: 5.963
+
+id: 3
+command: go 0 0 70 100
+response: ok
+start time: 2021-01-11 19:26:22.613000
+end_time: 2021-01-11 19:26:25.672000
+duration: 3.059
+
+id: 4
+command: go 0 -70 0 100
+response: ok
+start time: 2021-01-11 19:26:25.673000
+end_time: 2021-01-11 19:26:28.675000
+duration: 3.002
+
+id: 5
+command: go 0 0 -70 100
+response: ok
+start time: 2021-01-11 19:26:28.675000
+end_time: 2021-01-11 19:26:32.518000
+duration: 3.843
+
+id: 6
+command: go 0 70 0 100
+response: error Motor stop
+start time: 2021-01-11 19:26:32.519000
+end_time: 2021-01-11 19:26:34.175000
+duration: 1.656
+
+id: 7
+command: land
+response: error
+start time: 2021-01-11 19:26:34.191000
+end_time: 2021-01-11 19:26:34.244000
+duration: 0.053
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-11 19:26:10.616000
+end_time: 2021-01-11 19:26:10.955000
+duration: 0.339
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-11 19:26:15.647000
+end_time: 2021-01-11 19:26:15.698000
+duration: 0.051
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-11 19:26:16.648000
+end_time: 2021-01-11 19:26:20.643000
+duration: 3.995
+
+id: 3
+command: go 0 70 0 100
+response: ok
+start time: 2021-01-11 19:26:20.645000
+end_time: 2021-01-11 19:26:23.333000
+duration: 2.688
+
+id: 4
+command: go 0 0 70 100
+response: ok
+start time: 2021-01-11 19:26:23.333000
+end_time: 2021-01-11 19:26:25.642000
+duration: 2.309
+
+id: 5
+command: go 0 -70 0 100
+response: ok
+start time: 2021-01-11 19:26:25.644000
+end_time: 2021-01-11 19:26:28.499000
+duration: 2.855
+
+id: 6
+command: go 0 0 -70 100
+response: ok
+start time: 2021-01-11 19:26:28.501000
+end_time: 2021-01-11 19:26:31.199000
+duration: 2.698
+
+id: 7
+command: land
+response: ok
+start time: 2021-01-11 19:26:32.857000
+end_time: 2021-01-11 19:26:36.753000
+duration: 3.896
+

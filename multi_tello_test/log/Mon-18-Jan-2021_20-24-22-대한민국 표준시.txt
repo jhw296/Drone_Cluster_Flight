@@ -1,0 +1,108 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-18 20:24:22.358000
+end_time: 2021-01-18 20:24:22.381000
+duration: 0.023
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-18 20:24:27.375000
+end_time: 2021-01-18 20:24:27.375000
+duration: 0.0
+
+id: 2
+command: takeoff
+response: error
+start time: 2021-01-18 20:24:28.882000
+end_time: 2021-01-18 20:24:28.897000
+duration: 0.015
+
+id: 3
+command: mon
+response: ok
+start time: 2021-01-18 20:24:28.897000
+end_time: 2021-01-18 20:24:28.966000
+duration: 0.069
+
+id: 4
+command: mdirection 2
+response: ok
+start time: 2021-01-18 20:24:28.966000
+end_time: 2021-01-18 20:24:29.013000
+duration: 0.047
+
+id: 5
+command: go 0 0 50 100 m1
+response: error Motor stop
+start time: 2021-01-18 20:24:29.013000
+end_time: 2021-01-18 20:24:29.151000
+duration: 0.138
+
+id: 6
+command: jump -110 0 50 40 0 m1 m2
+response: error No valid marker
+start time: 2021-01-18 20:24:29.167000
+end_time: 2021-01-18 20:24:29.230000
+duration: 0.063
+
+id: 7
+command: go 0 0 50 100 m2
+response: error Motor stop
+start time: 2021-01-18 20:24:29.230000
+end_time: 2021-01-18 20:24:29.383000
+duration: 0.153
+
+id: 8
+command: jump 0 -90 50 40 0 m2 m3
+response: error Motor stop
+start time: 2021-01-18 20:24:29.383000
+end_time: 2021-01-18 20:24:29.467000
+duration: 0.084
+
+id: 9
+command: go 0 0 50 100 m3
+response: error Motor stop
+start time: 2021-01-18 20:24:29.467000
+end_time: 2021-01-18 20:24:29.615000
+duration: 0.148
+
+id: 10
+command: jump 110 0 50 40 0 m3 m4
+response: error Motor stop
+start time: 2021-01-18 20:24:29.615000
+end_time: 2021-01-18 20:24:29.678000
+duration: 0.063
+
+id: 11
+command: go 0 0 50 100 m4
+response: error Motor stop
+start time: 2021-01-18 20:24:29.680000
+end_time: 2021-01-18 20:24:29.831000
+duration: 0.151
+
+id: 12
+command: jump 0 90 50 40 0 m4 m1
+response: error Motor stop
+start time: 2021-01-18 20:24:29.833000
+end_time: 2021-01-18 20:24:29.882000
+duration: 0.049
+
+id: 13
+command: go 0 0 50 100 m1
+response: error Motor stop
+start time: 2021-01-18 20:24:29.884000
+end_time: 2021-01-18 20:24:30.035000
+duration: 0.151
+
+id: 14
+command: land
+response: error
+start time: 2021-01-18 20:24:30.037000
+end_time: 2021-01-18 20:24:30.089000
+duration: 0.052
+

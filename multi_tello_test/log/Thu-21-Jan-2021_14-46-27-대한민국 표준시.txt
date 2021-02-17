@@ -1,0 +1,38 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-21 14:46:27.427000
+end_time: 2021-01-21 14:46:27.451000
+duration: 0.024
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-21 14:46:32.454000
+end_time: 2021-01-21 14:46:32.499000
+duration: 0.045
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-21 14:46:33.981000
+end_time: 2021-01-21 14:46:42.649000
+duration: 8.668
+
+id: 3
+command: curve 80 80 0 80 0 0 50
+response: error No valid imu
+start time: 2021-01-21 14:46:42.650000
+end_time: 2021-01-21 14:46:47.137000
+duration: 4.487
+
+id: 4
+command: land
+response: ok
+start time: 2021-01-21 14:46:47.138000
+end_time: 2021-01-21 14:46:51.269000
+duration: 4.131
+

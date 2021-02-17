@@ -1,0 +1,38 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-07 16:28:51.805000
+end_time: 2021-01-07 16:28:51.859000
+duration: 0.054
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-07 16:28:56.830000
+end_time: 2021-01-07 16:28:56.922000
+duration: 0.092
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-07 16:28:58.358000
+end_time: 2021-01-07 16:29:02.976000
+duration: 4.618
+
+id: 3
+command: rc 0, 0, 20, 20
+response: None
+start time: 2021-01-07 16:29:02.977000
+end_time: None
+duration: None
+
+id: 4
+command: land
+response: ok
+start time: 2021-01-07 16:29:11.983000
+end_time: 2021-01-07 16:29:15.981000
+duration: 3.998
+

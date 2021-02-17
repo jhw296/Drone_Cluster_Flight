@@ -1,0 +1,101 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-15 17:28:41.646000
+end_time: 2021-01-15 17:28:41.688000
+duration: 0.042
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-15 17:28:46.674000
+end_time: 2021-01-15 17:28:46.679000
+duration: 0.005
+
+id: 2
+command: takeoff
+response: error
+start time: 2021-01-15 17:28:48.190000
+end_time: 2021-01-15 17:28:48.207000
+duration: 0.017
+
+id: 3
+command: mon
+response: ok
+start time: 2021-01-15 17:28:48.207000
+end_time: 2021-01-15 17:28:48.258000
+duration: 0.051
+
+id: 4
+command: mdirection 2
+response: ok
+start time: 2021-01-15 17:28:48.260000
+end_time: 2021-01-15 17:28:48.310000
+duration: 0.05
+
+id: 5
+command: go 0 30 40 100
+response: error Motor stop
+start time: 2021-01-15 17:28:48.311000
+end_time: 2021-01-15 17:28:48.462000
+duration: 0.151
+
+id: 6
+command: go 0 0 30 100
+response: error Motor stop
+start time: 2021-01-15 17:28:48.464000
+end_time: 2021-01-15 17:28:48.616000
+duration: 0.152
+
+id: 7
+command: go 0 -30 40 100
+response: error Motor stop
+start time: 2021-01-15 17:28:48.617000
+end_time: 2021-01-15 17:28:48.769000
+duration: 0.152
+
+id: 8
+command: go 0 30 0 100
+response: error Motor stop
+start time: 2021-01-15 17:28:48.769000
+end_time: 2021-01-15 17:28:48.923000
+duration: 0.154
+
+id: 9
+command: go 0 -30 -40 100
+response: error Motor stop
+start time: 2021-01-15 17:28:48.925000
+end_time: 2021-01-15 17:28:49.075000
+duration: 0.15
+
+id: 10
+command: go 0 0 -30 100
+response: error Motor stop
+start time: 2021-01-15 17:28:49.077000
+end_time: 2021-01-15 17:28:49.228000
+duration: 0.151
+
+id: 11
+command: go 0 30 -40 100
+response: error Motor stop
+start time: 2021-01-15 17:28:49.229000
+end_time: 2021-01-15 17:28:49.380000
+duration: 0.151
+
+id: 12
+command: go 0 30 0 100
+response: error Motor stop
+start time: 2021-01-15 17:28:49.382000
+end_time: 2021-01-15 17:28:49.535000
+duration: 0.153
+
+id: 13
+command: land
+response: error
+start time: 2021-01-15 17:28:49.536000
+end_time: 2021-01-15 17:28:49.584000
+duration: 0.048
+

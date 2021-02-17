@@ -1,0 +1,113 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: None
+start time: 2021-02-08 19:27:07.794000
+end_time: None
+duration: None
+
+id: 1
+command: command
+response: ok
+start time: 2021-02-08 19:27:12.828000
+end_time: 2021-02-08 19:27:12.874000
+duration: 0.046
+
+id: 2
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-08 19:27:17.884000
+end_time: 2021-02-08 19:27:17.923000
+duration: 0.039
+
+id: 3
+command: battery?
+response: 33
+
+start time: 2021-02-08 19:27:18.886000
+end_time: 2021-02-08 19:27:18.890000
+duration: 0.004
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-02-08 19:27:18.891000
+end_time: 2021-02-08 19:27:27.711000
+duration: 8.82
+
+id: 5
+command: go 0 0 10 50
+response: out of range
+start time: 2021-02-08 19:27:27.753000
+end_time: 2021-02-08 19:27:27.865000
+duration: 0.112
+
+id: 6
+command: land
+response: ok
+start time: 2021-02-08 19:27:35.296000
+end_time: 2021-02-08 19:27:39.136000
+duration: 3.84
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-08 19:27:07.794000
+end_time: 2021-02-08 19:27:07.800000
+duration: 0.006
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-02-08 19:27:17.884000
+end_time: 2021-02-08 19:27:17.899000
+duration: 0.015
+
+id: 2
+command: battery?
+response: 27
+
+start time: 2021-02-08 19:27:18.885000
+end_time: 2021-02-08 19:27:18.918000
+duration: 0.033
+
+id: 3
+command: takeoff
+response: ok
+start time: 2021-02-08 19:27:18.920000
+end_time: 2021-02-08 19:27:25.649000
+duration: 6.729
+
+id: 4
+command: go 0 0 150 50
+response: ok
+start time: 2021-02-08 19:27:27.753000
+end_time: 2021-02-08 19:27:31.667000
+duration: 3.914
+
+id: 5
+command: go 0 -60 0 50
+response: ok
+start time: 2021-02-08 19:27:31.669000
+end_time: 2021-02-08 19:27:34.369000
+duration: 2.7
+
+id: 6
+command: go 0 -60 0 50
+response: error Not joystick
+start time: 2021-02-08 19:27:34.371000
+end_time: 2021-02-08 19:27:35.288000
+duration: 0.917
+
+id: 7
+command: land
+response: ok
+start time: 2021-02-08 19:27:35.296000
+end_time: 2021-02-08 19:27:39.266000
+duration: 3.97
+

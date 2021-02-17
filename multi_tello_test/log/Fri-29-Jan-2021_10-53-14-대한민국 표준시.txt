@@ -1,0 +1,179 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-29 10:53:14.913000
+end_time: 2021-01-29 10:53:14.959000
+duration: 0.046
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-29 10:53:19.944000
+end_time: 2021-01-29 10:53:19.944000
+duration: 0.0
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-29 10:53:21.462000
+end_time: 2021-01-29 10:53:21.478000
+duration: 0.016
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-29 10:53:21.478000
+end_time: 2021-01-29 10:53:21.524000
+duration: 0.046
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-29 10:53:21.540000
+end_time: 2021-01-29 10:53:30.195000
+duration: 8.655
+
+id: 5
+command: go 0 0 100 100
+response: ok
+start time: 2021-01-29 10:53:30.242000
+end_time: 2021-01-29 10:53:32.898000
+duration: 2.656
+
+id: 6
+command: go 0 0 -100 100
+response: ok
+start time: 2021-01-29 10:53:33.007000
+end_time: 2021-01-29 10:53:36.009000
+duration: 3.002
+
+id: 7
+command: go -30 0 200 100 m5
+response: ok
+start time: 2021-01-29 10:53:36.087000
+end_time: 2021-01-29 10:53:38.508000
+duration: 2.421
+
+id: 8
+command: go 0 -40 -100 100
+response: ok
+start time: 2021-01-29 10:53:38.524000
+end_time: 2021-01-29 10:53:40.603000
+duration: 2.079
+
+id: 9
+command: flip f
+response: ok
+start time: 2021-01-29 10:53:40.603000
+end_time: 2021-01-29 10:53:44.180000
+duration: 3.577
+
+id: 10
+command: go 0 40 100 100
+response: ok
+start time: 2021-01-29 10:53:44.180000
+end_time: 2021-01-29 10:53:47.088000
+duration: 2.908
+
+id: 11
+command: flip b
+response: ok
+start time: 2021-01-29 10:53:47.088000
+end_time: 2021-01-29 10:53:50.698000
+duration: 3.61
+
+id: 12
+command: curve -55 -55 0 0 -100 -30 50
+response: ok
+start time: 2021-01-29 10:53:50.714000
+end_time: 2021-01-29 10:53:55.636000
+duration: 4.922
+
+id: 13
+command: curve 55 55 -30 0 100 -60 50
+response: ok
+start time: 2021-01-29 10:53:55.636000
+end_time: 2021-01-29 10:54:00.341000
+duration: 4.705
+
+id: 14
+command: go 0 0 150 100 m5
+response: ok
+start time: 2021-01-29 10:54:00.372000
+end_time: 2021-01-29 10:54:03.966000
+duration: 3.594
+
+id: 15
+command: curve 0 -55 -55 0 -100 0 50
+response: ok
+start time: 2021-01-29 10:54:04.013000
+end_time: 2021-01-29 10:54:08.856000
+duration: 4.843
+
+id: 16
+command: curve 0 -55 55 0 -100 0 50
+response: ok
+start time: 2021-01-29 10:54:08.965000
+end_time: 2021-01-29 10:54:13.809000
+duration: 4.844
+
+id: 17
+command: go 0 40 -60 100
+response: ok
+start time: 2021-01-29 10:54:13.903000
+end_time: 2021-01-29 10:54:15.639000
+duration: 1.736
+
+id: 18
+command: go 0 40 60 100
+response: ok
+start time: 2021-01-29 10:54:15.670000
+end_time: 2021-01-29 10:54:18.296000
+duration: 2.626
+
+id: 19
+command: go 0 40 -60 100
+response: ok
+start time: 2021-01-29 10:54:18.327000
+end_time: 2021-01-29 10:54:20.077000
+duration: 1.75
+
+id: 20
+command: go 0 40 60 100
+response: ok
+start time: 2021-01-29 10:54:20.108000
+end_time: 2021-01-29 10:54:22.780000
+duration: 2.672
+
+id: 21
+command: go 0 40 -60 100
+response: ok
+start time: 2021-01-29 10:54:22.873000
+end_time: 2021-01-29 10:54:24.765000
+duration: 1.892
+
+id: 22
+command: go 0 0 200 100 m5
+response: ok
+start time: 2021-01-29 10:54:24.874000
+end_time: 2021-01-29 10:54:26.811000
+duration: 1.937
+
+id: 23
+command: battery?
+response: 79
+
+start time: 2021-01-29 10:54:26.874000
+end_time: 2021-01-29 10:54:26.921000
+duration: 0.047
+
+id: 24
+command: land
+response: ok
+start time: 2021-01-29 10:54:26.921000
+end_time: 2021-01-29 10:54:31.094000
+duration: 4.173
+

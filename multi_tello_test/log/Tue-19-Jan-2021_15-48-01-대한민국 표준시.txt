@@ -1,0 +1,156 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 15:48:01.721000
+end_time: 2021-01-19 15:48:02.025000
+duration: 0.304
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-19 15:48:06.755000
+end_time: 2021-01-19 15:48:06.793000
+duration: 0.038
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-19 15:48:07.774000
+end_time: 2021-01-19 15:48:13.881000
+duration: 6.107
+
+id: 3
+command: go 0 0 80 50
+response: ok
+start time: 2021-01-19 15:48:16.642000
+end_time: 2021-01-19 15:48:20.646000
+duration: 4.004
+
+id: 4
+command: go 0 -100 -100 50
+response: ok
+start time: 2021-01-19 15:48:20.719000
+end_time: 2021-01-19 15:48:25.706000
+duration: 4.987
+
+id: 5
+command: land
+response: ok
+start time: 2021-01-19 15:48:25.758000
+end_time: 2021-01-19 15:48:27.946000
+duration: 2.188
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 15:48:01.723000
+end_time: 2021-01-19 15:48:02.027000
+duration: 0.304
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-19 15:48:06.755000
+end_time: 2021-01-19 15:48:06.793000
+duration: 0.038
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-19 15:48:07.774000
+end_time: 2021-01-19 15:48:12.818000
+duration: 5.044
+
+id: 3
+command: go 0 0 80 50
+response: ok
+start time: 2021-01-19 15:48:13.889000
+end_time: 2021-01-19 15:48:16.580000
+duration: 2.691
+
+id: 4
+command: go 0 0 -80 50
+response: ok
+start time: 2021-01-19 15:48:16.643000
+end_time: 2021-01-19 15:48:19.582000
+duration: 2.939
+
+id: 5
+command: speed 60
+response: ok
+start time: 2021-01-19 15:48:20.718000
+end_time: 2021-01-19 15:48:20.755000
+duration: 0.037
+
+id: 6
+command: left 200
+response: error No valid imu
+start time: 2021-01-19 15:48:20.756000
+end_time: 2021-01-19 15:48:24.946000
+duration: 4.19
+
+id: 7
+command: land
+response: ok
+start time: 2021-01-19 15:48:25.757000
+end_time: 2021-01-19 15:48:29.068000
+duration: 3.311
+
+------
+Drone: 3
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 15:48:01.716000
+end_time: 2021-01-19 15:48:02.029000
+duration: 0.313
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-19 15:48:06.754000
+end_time: 2021-01-19 15:48:06.792000
+duration: 0.038
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-19 15:48:07.773000
+end_time: 2021-01-19 15:48:12.690000
+duration: 4.917
+
+id: 3
+command: go 0 0 80 50
+response: ok
+start time: 2021-01-19 15:48:13.890000
+end_time: 2021-01-19 15:48:16.539000
+duration: 2.649
+
+id: 4
+command: go 0 0 -80 50
+response: ok
+start time: 2021-01-19 15:48:16.644000
+end_time: 2021-01-19 15:48:19.696000
+duration: 3.052
+
+id: 5
+command: go 0 -100 100 50
+response: ok
+start time: 2021-01-19 15:48:20.720000
+end_time: 2021-01-19 15:48:25.338000
+duration: 4.618
+
+id: 6
+command: land
+response: ok
+start time: 2021-01-19 15:48:25.759000
+end_time: 2021-01-19 15:48:30.591000
+duration: 4.832
+

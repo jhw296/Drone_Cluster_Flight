@@ -1,0 +1,109 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-29 09:25:34.605000
+end_time: 2021-01-29 09:25:34.652000
+duration: 0.047
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-29 09:25:39.622000
+end_time: 2021-01-29 09:25:39.653000
+duration: 0.031
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-29 09:25:41.153000
+end_time: 2021-01-29 09:25:41.184000
+duration: 0.031
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-29 09:25:41.184000
+end_time: 2021-01-29 09:25:41.231000
+duration: 0.047
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-29 09:25:41.231000
+end_time: 2021-01-29 09:25:49.843000
+duration: 8.612
+
+id: 5
+command: go 0 0 100 100
+response: ok
+start time: 2021-01-29 09:25:49.921000
+end_time: 2021-01-29 09:25:52.610000
+duration: 2.689
+
+id: 6
+command: go 0 0 -100 100
+response: ok
+start time: 2021-01-29 09:25:52.688000
+end_time: 2021-01-29 09:25:55.812000
+duration: 3.124
+
+id: 7
+command: go 0 0 200 100 m5
+response: ok
+start time: 2021-01-29 09:25:55.890000
+end_time: 2021-01-29 09:25:58.361000
+duration: 2.471
+
+id: 8
+command: go 0 -40 -100 100
+response: ok
+start time: 2021-01-29 09:25:58.376000
+end_time: 2021-01-29 09:26:00.565000
+duration: 2.189
+
+id: 9
+command: flip f
+response: ok
+start time: 2021-01-29 09:26:00.565000
+end_time: 2021-01-29 09:26:04.173000
+duration: 3.608
+
+id: 10
+command: go -20 40 100 100
+response: ok
+start time: 2021-01-29 09:26:04.189000
+end_time: 2021-01-29 09:26:07.284000
+duration: 3.095
+
+id: 11
+command: flip b
+response: ok
+start time: 2021-01-29 09:26:07.300000
+end_time: 2021-01-29 09:26:10.860000
+duration: 3.56
+
+id: 12
+command: go 0 0 0 100 m5
+response: out of range
+start time: 2021-01-29 09:26:10.860000
+end_time: 2021-01-29 09:26:10.970000
+duration: 0.11
+
+id: 13
+command: battery?
+response: 71
+
+start time: 2021-01-29 09:26:11.048000
+end_time: 2021-01-29 09:26:11.063000
+duration: 0.015
+
+id: 14
+command: land
+response: ok
+start time: 2021-01-29 09:26:11.063000
+end_time: 2021-01-29 09:26:16.365000
+duration: 5.302
+

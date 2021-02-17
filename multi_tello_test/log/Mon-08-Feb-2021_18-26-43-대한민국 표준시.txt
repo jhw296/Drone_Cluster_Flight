@@ -1,0 +1,113 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: None
+start time: 2021-02-08 18:26:44.064000
+end_time: None
+duration: None
+
+id: 1
+command: command
+response: ok
+start time: 2021-02-08 18:26:49.082000
+end_time: 2021-02-08 18:26:49.109000
+duration: 0.027
+
+id: 2
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-08 18:26:54.105000
+end_time: 2021-02-08 18:26:54.155000
+duration: 0.05
+
+id: 3
+command: battery?
+response: 85
+
+start time: 2021-02-08 18:26:55.115000
+end_time: 2021-02-08 18:26:55.125000
+duration: 0.01
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-02-08 18:26:55.126000
+end_time: 2021-02-08 18:27:01.348000
+duration: 6.222
+
+id: 5
+command: go 0 0 10 50
+response: out of range
+start time: 2021-02-08 18:27:01.447000
+end_time: 2021-02-08 18:27:01.550000
+duration: 0.103
+
+id: 6
+command: land
+response: ok
+start time: 2021-02-08 18:27:10.556000
+end_time: 2021-02-08 18:27:14.148000
+duration: 3.592
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-08 18:26:44.064000
+end_time: 2021-02-08 18:26:44.085000
+duration: 0.021
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-02-08 18:26:54.105000
+end_time: 2021-02-08 18:26:54.129000
+duration: 0.024
+
+id: 2
+command: battery?
+response: 63
+
+start time: 2021-02-08 18:26:55.115000
+end_time: 2021-02-08 18:26:55.150000
+duration: 0.035
+
+id: 3
+command: takeoff
+response: ok
+start time: 2021-02-08 18:26:55.151000
+end_time: 2021-02-08 18:27:01.016000
+duration: 5.865
+
+id: 4
+command: go 0 0 70 50
+response: ok
+start time: 2021-02-08 18:27:01.446000
+end_time: 2021-02-08 18:27:04.279000
+duration: 2.833
+
+id: 5
+command: go 0 -60 0 50
+response: ok
+start time: 2021-02-08 18:27:04.281000
+end_time: 2021-02-08 18:27:07.441000
+duration: 3.16
+
+id: 6
+command: go 0 -60 0 50
+response: ok
+start time: 2021-02-08 18:27:07.442000
+end_time: 2021-02-08 18:27:10.449000
+duration: 3.007
+
+id: 7
+command: land
+response: ok
+start time: 2021-02-08 18:27:10.556000
+end_time: 2021-02-08 18:27:14.989000
+duration: 4.433
+

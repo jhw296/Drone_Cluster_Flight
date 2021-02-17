@@ -1,0 +1,211 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-03 21:03:48.081000
+end_time: 2021-02-03 21:03:48.133000
+duration: 0.052
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-03 21:03:53.100000
+end_time: 2021-02-03 21:03:53.137000
+duration: 0.037
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-02-03 21:03:54.629000
+end_time: 2021-02-03 21:04:03.337000
+duration: 8.708
+
+id: 3
+command: battery?
+response: 80
+
+start time: 2021-02-03 21:04:03.337000
+end_time: 2021-02-03 21:04:03.378000
+duration: 0.041
+
+id: 4
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:03.394000
+end_time: 2021-02-03 21:04:05.478000
+duration: 2.084
+
+id: 5
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:05.478000
+end_time: 2021-02-03 21:04:07.922000
+duration: 2.444
+
+id: 6
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:07.922000
+end_time: 2021-02-03 21:04:10.274000
+duration: 2.352
+
+id: 7
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:10.274000
+end_time: 2021-02-03 21:04:12.809000
+duration: 2.535
+
+id: 8
+command: battery?
+response: 80
+
+start time: 2021-02-03 21:04:12.825000
+end_time: 2021-02-03 21:04:12.878000
+duration: 0.053
+
+id: 9
+command: flip b
+response: ok
+start time: 2021-02-03 21:04:12.878000
+end_time: 2021-02-03 21:04:16.442000
+duration: 3.564
+
+id: 10
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:16.442000
+end_time: 2021-02-03 21:04:18.784000
+duration: 2.342
+
+id: 11
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:18.792000
+end_time: 2021-02-03 21:04:21.134000
+duration: 2.342
+
+id: 12
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:21.134000
+end_time: 2021-02-03 21:04:23.431000
+duration: 2.297
+
+id: 13
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:23.431000
+end_time: 2021-02-03 21:04:26.023000
+duration: 2.592
+
+id: 14
+command: battery?
+response: 75
+
+start time: 2021-02-03 21:04:26.023000
+end_time: 2021-02-03 21:04:26.093000
+duration: 0.07
+
+id: 15
+command: flip l
+response: ok
+start time: 2021-02-03 21:04:26.093000
+end_time: 2021-02-03 21:04:29.702000
+duration: 3.609
+
+id: 16
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:29.710000
+end_time: 2021-02-03 21:04:31.949000
+duration: 2.239
+
+id: 17
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:31.949000
+end_time: 2021-02-03 21:04:34.451000
+duration: 2.502
+
+id: 18
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:34.451000
+end_time: 2021-02-03 21:04:36.742000
+duration: 2.291
+
+id: 19
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:36.742000
+end_time: 2021-02-03 21:04:39.033000
+duration: 2.291
+
+id: 20
+command: battery?
+response: 72
+
+start time: 2021-02-03 21:04:39.033000
+end_time: 2021-02-03 21:04:39.094000
+duration: 0.061
+
+id: 21
+command: flip b
+response: ok
+start time: 2021-02-03 21:04:39.094000
+end_time: 2021-02-03 21:04:42.707000
+duration: 3.613
+
+id: 22
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:42.707000
+end_time: 2021-02-03 21:04:45.359000
+duration: 2.652
+
+id: 23
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:45.359000
+end_time: 2021-02-03 21:04:47.600000
+duration: 2.241
+
+id: 24
+command: go 0 0 30 50
+response: ok
+start time: 2021-02-03 21:04:47.600000
+end_time: 2021-02-03 21:04:49.901000
+duration: 2.301
+
+id: 25
+command: go 0 0 -30 50
+response: ok
+start time: 2021-02-03 21:04:49.901000
+end_time: 2021-02-03 21:04:52.294000
+duration: 2.393
+
+id: 26
+command: battery?
+response: 71
+
+start time: 2021-02-03 21:04:52.302000
+end_time: 2021-02-03 21:04:52.349000
+duration: 0.047
+
+id: 27
+command: flip l
+response: ok
+start time: 2021-02-03 21:04:52.351000
+end_time: 2021-02-03 21:04:55.929000
+duration: 3.578
+
+id: 28
+command: land
+response: ok
+start time: 2021-02-03 21:04:55.931000
+end_time: 2021-02-03 21:05:00.111000
+duration: 4.18
+

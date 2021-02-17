@@ -1,0 +1,108 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-11 17:02:38.004000
+end_time: 2021-01-11 17:02:38.035000
+duration: 0.031
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-11 17:02:43.051000
+end_time: 2021-01-11 17:02:43.082000
+duration: 0.031
+
+id: 2
+command: python
+response: unknown command: python
+start time: 2021-01-11 17:02:44.569000
+end_time: 2021-01-11 17:02:44.573000
+duration: 0.004
+
+id: 3
+command: import time
+response: unknown command: import
+start time: 2021-01-11 17:02:44.574000
+end_time: 2021-01-11 17:02:44.624000
+duration: 0.05
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-11 17:02:44.624000
+end_time: 2021-01-11 17:02:49.467000
+duration: 4.843
+
+id: 5
+command: time.sleep(10)
+response: unknown command: time.sleep(10)
+start time: 2021-01-11 17:02:49.468000
+end_time: 2021-01-11 17:02:49.518000
+duration: 0.05
+
+id: 6
+command: go 0 0 63 100
+response: ok
+start time: 2021-01-11 17:02:49.520000
+end_time: 2021-01-11 17:02:52.314000
+duration: 2.794
+
+id: 7
+command: go 0 0 -63 100
+response: ok
+start time: 2021-01-11 17:02:52.314000
+end_time: 2021-01-11 17:02:56.820000
+duration: 4.506
+
+id: 8
+command: go 0 0 70 100
+response: ok
+start time: 2021-01-11 17:02:56.889000
+end_time: 2021-01-11 17:02:59.616000
+duration: 2.727
+
+id: 9
+command: go 0 70 0 100
+response: ok
+start time: 2021-01-11 17:02:59.617000
+end_time: 2021-01-11 17:03:02.256000
+duration: 2.639
+
+id: 10
+command: go 0 0 -70 100
+response: ok
+start time: 2021-01-11 17:03:02.256000
+end_time: 2021-01-11 17:03:06.098000
+duration: 3.842
+
+id: 11
+command: go 0 -70 0 100
+response: ok
+start time: 2021-01-11 17:03:06.100000
+end_time: 2021-01-11 17:03:08.903000
+duration: 2.803
+
+id: 12
+command: flip b
+response: ok
+start time: 2021-01-11 17:03:08.916000
+end_time: 2021-01-11 17:03:12.468000
+duration: 3.552
+
+id: 13
+command: forward 20
+response: ok
+start time: 2021-01-11 17:03:12.469000
+end_time: 2021-01-11 17:03:14.763000
+duration: 2.294
+
+id: 14
+command: land
+response: ok
+start time: 2021-01-11 17:03:14.764000
+end_time: 2021-01-11 17:03:18.795000
+duration: 4.031
+

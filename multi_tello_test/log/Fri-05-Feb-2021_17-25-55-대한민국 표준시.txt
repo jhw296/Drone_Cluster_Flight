@@ -1,0 +1,151 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-02-05 17:25:55.768000
+end_time: 2021-02-05 17:25:55.809000
+duration: 0.041
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-02-05 17:26:00.800000
+end_time: 2021-02-05 17:26:00.858000
+duration: 0.058
+
+id: 2
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:02.318000
+end_time: 2021-02-05 17:26:02.335000
+duration: 0.017
+
+id: 3
+command: takeoff
+response: ok
+start time: 2021-02-05 17:26:02.336000
+end_time: 2021-02-05 17:26:11.011000
+duration: 8.675
+
+id: 4
+command: go 0 0 20 50
+response: ok
+start time: 2021-02-05 17:26:11.110000
+end_time: 2021-02-05 17:26:13.098000
+duration: 1.988
+
+id: 5
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:13.100000
+end_time: 2021-02-05 17:26:13.148000
+duration: 0.048
+
+id: 6
+command: go 0 0 -20 50
+response: ok
+start time: 2021-02-05 17:26:13.149000
+end_time: 2021-02-05 17:26:15.343000
+duration: 2.194
+
+id: 7
+command: go 0 0 20 50
+response: ok
+start time: 2021-02-05 17:26:15.344000
+end_time: 2021-02-05 17:26:17.381000
+duration: 2.037
+
+id: 8
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:17.383000
+end_time: 2021-02-05 17:26:17.433000
+duration: 0.05
+
+id: 9
+command: go 0 0 -20 50
+response: ok
+start time: 2021-02-05 17:26:17.435000
+end_time: 2021-02-05 17:26:19.268000
+duration: 1.833
+
+id: 10
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:19.270000
+end_time: 2021-02-05 17:26:19.319000
+duration: 0.049
+
+id: 11
+command: go 0 0 20 50
+response: ok
+start time: 2021-02-05 17:26:19.320000
+end_time: 2021-02-05 17:26:21.461000
+duration: 2.141
+
+id: 12
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:21.463000
+end_time: 2021-02-05 17:26:21.514000
+duration: 0.051
+
+id: 13
+command: go 0 0 -20 50
+response: ok
+start time: 2021-02-05 17:26:21.515000
+end_time: 2021-02-05 17:26:23.552000
+duration: 2.037
+
+id: 14
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:23.553000
+end_time: 2021-02-05 17:26:23.605000
+duration: 0.052
+
+id: 15
+command: go 0 0 20 50
+response: ok
+start time: 2021-02-05 17:26:23.607000
+end_time: 2021-02-05 17:26:25.293000
+duration: 1.686
+
+id: 16
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:25.295000
+end_time: 2021-02-05 17:26:25.338000
+duration: 0.043
+
+id: 17
+command: go 0 0 -20 50
+response: ok
+start time: 2021-02-05 17:26:25.341000
+end_time: 2021-02-05 17:26:27.331000
+duration: 1.99
+
+id: 18
+command: battery?
+response: 90
+
+start time: 2021-02-05 17:26:27.333000
+end_time: 2021-02-05 17:26:27.385000
+duration: 0.052
+
+id: 19
+command: land
+response: ok
+start time: 2021-02-05 17:26:27.387000
+end_time: 2021-02-05 17:26:29.827000
+duration: 2.44
+

@@ -1,0 +1,372 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 18:15:06.783000
+end_time: 2021-01-26 18:15:06.837000
+duration: 0.054
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-26 18:15:11.803000
+end_time: 2021-01-26 18:15:11.837000
+duration: 0.034
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 18:15:12.807000
+end_time: 2021-01-26 18:15:12.860000
+duration: 0.053
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 18:15:12.861000
+end_time: 2021-01-26 18:15:12.904000
+duration: 0.043
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 18:15:12.905000
+end_time: 2021-01-26 18:15:17.088000
+duration: 4.183
+
+id: 5
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 18:15:20.659000
+end_time: 2021-01-26 18:15:23.460000
+duration: 2.801
+
+id: 6
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 18:15:23.518000
+end_time: 2021-01-26 18:15:26.216000
+duration: 2.698
+
+id: 7
+command: go 80 0 0 100
+response: ok
+start time: 2021-01-26 18:15:26.248000
+end_time: 2021-01-26 18:15:29.631000
+duration: 3.383
+
+id: 8
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 18:15:29.716000
+end_time: 2021-01-26 18:15:32.385000
+duration: 2.669
+
+id: 9
+command: go -80 0 0 100
+response: ok
+start time: 2021-01-26 18:15:32.436000
+end_time: 2021-01-26 18:15:35.089000
+duration: 2.653
+
+id: 10
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 18:15:35.090000
+end_time: 2021-01-26 18:15:37.893000
+duration: 2.803
+
+id: 11
+command: go 0 0 80 100 m7
+response: error No valid marker
+start time: 2021-01-26 18:15:39.101000
+end_time: 2021-01-26 18:15:41.259000
+duration: 2.158
+
+id: 12
+command: flip f
+response: ok
+start time: 2021-01-26 18:15:42.559000
+end_time: 2021-01-26 18:15:46.104000
+duration: 3.545
+
+id: 13
+command: go 20 -30 0 100
+response: ok
+start time: 2021-01-26 18:15:46.205000
+end_time: 2021-01-26 18:15:48.093000
+duration: 1.888
+
+id: 14
+command: go 0 0 80 100 m5
+response: error No valid marker
+start time: 2021-01-26 18:15:48.210000
+end_time: 2021-01-26 18:15:50.394000
+duration: 2.184
+
+id: 15
+command: curve -55 -55 30 -100 0 0 50
+response: ok
+start time: 2021-01-26 18:15:50.420000
+end_time: 2021-01-26 18:15:55.692000
+duration: 5.272
+
+id: 16
+command: curve 55 55 0 100 0 -30 50
+response: ok
+start time: 2021-01-26 18:15:55.693000
+end_time: 2021-01-26 18:16:00.536000
+duration: 4.843
+
+id: 17
+command: go 0 0 180 100 m5
+response: error No valid marker
+start time: 2021-01-26 18:16:01.402000
+end_time: 2021-01-26 18:16:03.551000
+duration: 2.149
+
+id: 18
+command: curve -55 -55 0 -100 0 -30 50
+response: ok
+start time: 2021-01-26 18:16:05.860000
+end_time: 2021-01-26 18:16:10.796000
+duration: 4.936
+
+id: 19
+command: curve 55 55 -30 100 0 -60 50
+response: ok
+start time: 2021-01-26 18:16:10.797000
+end_time: 2021-01-26 18:16:15.531000
+duration: 4.734
+
+id: 20
+command: go 0 0 80 100 m5
+response: error No valid marker
+start time: 2021-01-26 18:16:15.597000
+end_time: 2021-01-26 18:16:17.722000
+duration: 2.125
+
+id: 21
+command: flip r
+response: ok
+start time: 2021-01-26 18:16:21.024000
+end_time: 2021-01-26 18:16:24.606000
+duration: 3.582
+
+id: 22
+command: go 0 -20 0 100
+response: ok
+start time: 2021-01-26 18:16:24.608000
+end_time: 2021-01-26 18:16:26.343000
+duration: 1.735
+
+id: 23
+command: go 0 0 80 100 m2
+response: error No valid marker
+start time: 2021-01-26 18:16:26.365000
+end_time: 2021-01-26 18:16:28.536000
+duration: 2.171
+
+id: 24
+command: battery?
+response: 86
+
+start time: 2021-01-26 18:16:28.566000
+end_time: 2021-01-26 18:16:28.586000
+duration: 0.02
+
+id: 25
+command: land
+response: ok
+start time: 2021-01-26 18:16:28.587000
+end_time: 2021-01-26 18:16:31.293000
+duration: 2.706
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 18:15:06.783000
+end_time: 2021-01-26 18:15:06.827000
+duration: 0.044
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-26 18:15:11.803000
+end_time: 2021-01-26 18:15:11.824000
+duration: 0.021
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 18:15:12.807000
+end_time: 2021-01-26 18:15:12.841000
+duration: 0.034
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 18:15:12.843000
+end_time: 2021-01-26 18:15:12.893000
+duration: 0.05
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 18:15:12.895000
+end_time: 2021-01-26 18:15:17.636000
+duration: 4.741
+
+id: 5
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 18:15:17.741000
+end_time: 2021-01-26 18:15:20.593000
+duration: 2.852
+
+id: 6
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 18:15:20.659000
+end_time: 2021-01-26 18:15:23.398000
+duration: 2.739
+
+id: 7
+command: go -80 0 0 100
+response: ok
+start time: 2021-01-26 18:15:26.249000
+end_time: 2021-01-26 18:15:29.008000
+duration: 2.759
+
+id: 8
+command: go 0 0 80 100
+response: ok
+start time: 2021-01-26 18:15:29.716000
+end_time: 2021-01-26 18:15:32.067000
+duration: 2.351
+
+id: 9
+command: go 80 0 0 100
+response: ok
+start time: 2021-01-26 18:15:32.438000
+end_time: 2021-01-26 18:15:36.307000
+duration: 3.869
+
+id: 10
+command: go 0 0 -80 100
+response: ok
+start time: 2021-01-26 18:15:36.308000
+end_time: 2021-01-26 18:15:39.004000
+duration: 2.696
+
+id: 11
+command: go 0 0 80 100 m3
+response: ok
+start time: 2021-01-26 18:15:39.101000
+end_time: 2021-01-26 18:15:42.478000
+duration: 3.377
+
+id: 12
+command: flip b
+response: ok
+start time: 2021-01-26 18:15:42.560000
+end_time: 2021-01-26 18:15:46.144000
+duration: 3.584
+
+id: 13
+command: go -20 30 0 100
+response: ok
+start time: 2021-01-26 18:15:46.204000
+end_time: 2021-01-26 18:15:48.189000
+duration: 1.985
+
+id: 14
+command: go 0 0 80 100 m5
+response: error No valid marker
+start time: 2021-01-26 18:15:48.211000
+end_time: 2021-01-26 18:15:50.377000
+duration: 2.166
+
+id: 15
+command: curve 55 55 -30 100 0 30 50
+response: ok
+start time: 2021-01-26 18:15:50.419000
+end_time: 2021-01-26 18:15:56.191000
+duration: 5.772
+
+id: 16
+command: curve -55 -55 30 -100 0 0 50
+response: ok
+start time: 2021-01-26 18:15:56.192000
+end_time: 2021-01-26 18:16:01.291000
+duration: 5.099
+
+id: 17
+command: go 60 0 0 100
+response: ok
+start time: 2021-01-26 18:16:01.403000
+end_time: 2021-01-26 18:16:03.645000
+duration: 2.242
+
+id: 18
+command: go 0 0 180 100 m1
+response: error No valid marker
+start time: 2021-01-26 18:16:03.646000
+end_time: 2021-01-26 18:16:05.778000
+duration: 2.132
+
+id: 19
+command: go 0 0 -120 10
+response: ok
+start time: 2021-01-26 18:16:05.859000
+end_time: 2021-01-26 18:16:15.467000
+duration: 9.608
+
+id: 20
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-26 18:16:15.596000
+end_time: 2021-01-26 18:16:20.976000
+duration: 5.38
+
+id: 21
+command: flip l
+response: ok
+start time: 2021-01-26 18:16:21.025000
+end_time: 2021-01-26 18:16:24.600000
+duration: 3.575
+
+id: 22
+command: go -20 20 0 100
+response: ok
+start time: 2021-01-26 18:16:24.601000
+end_time: 2021-01-26 18:16:26.279000
+duration: 1.678
+
+id: 23
+command: go 0 0 80 100 m6
+response: ok
+start time: 2021-01-26 18:16:26.364000
+end_time: 2021-01-26 18:16:28.269000
+duration: 1.905
+
+id: 24
+command: battery?
+response: 89
+
+start time: 2021-01-26 18:16:28.565000
+end_time: 2021-01-26 18:16:28.575000
+duration: 0.01
+
+id: 25
+command: land
+response: ok
+start time: 2021-01-26 18:16:28.578000
+end_time: 2021-01-26 18:16:31.330000
+duration: 2.752
+

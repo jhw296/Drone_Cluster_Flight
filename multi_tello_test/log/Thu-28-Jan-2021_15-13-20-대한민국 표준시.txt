@@ -1,0 +1,148 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-28 15:13:20.723000
+end_time: 2021-01-28 15:13:20.776000
+duration: 0.053
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-28 15:13:25.739000
+end_time: 2021-01-28 15:13:25.772000
+duration: 0.033
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-28 15:13:26.745000
+end_time: 2021-01-28 15:13:26.810000
+duration: 0.065
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-28 15:13:26.813000
+end_time: 2021-01-28 15:13:26.845000
+duration: 0.032
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-28 15:13:26.846000
+end_time: 2021-01-28 15:13:31.740000
+duration: 4.894
+
+id: 5
+command: go 0 50 -60 100
+response: ok
+start time: 2021-01-28 15:13:32.028000
+end_time: 2021-01-28 15:13:34.342000
+duration: 2.314
+
+id: 6
+command: go 0 50 60 100
+response: ok
+start time: 2021-01-28 15:13:34.435000
+end_time: 2021-01-28 15:13:37.351000
+duration: 2.916
+
+id: 7
+command: flip l
+response: ok
+start time: 2021-01-28 15:13:37.388000
+end_time: 2021-01-28 15:13:40.925000
+duration: 3.537
+
+id: 8
+command: battery?
+response: 85
+
+start time: 2021-01-28 15:13:40.960000
+end_time: 2021-01-28 15:13:40.970000
+duration: 0.01
+
+id: 9
+command: land
+response: ok
+start time: 2021-01-28 15:13:40.975000
+end_time: 2021-01-28 15:13:44.708000
+duration: 3.733
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-28 15:13:20.723000
+end_time: 2021-01-28 15:13:20.778000
+duration: 0.055
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-28 15:13:25.739000
+end_time: 2021-01-28 15:13:25.773000
+duration: 0.034
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-28 15:13:26.745000
+end_time: 2021-01-28 15:13:26.812000
+duration: 0.067
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-28 15:13:26.814000
+end_time: 2021-01-28 15:13:26.843000
+duration: 0.029
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-28 15:13:26.845000
+end_time: 2021-01-28 15:13:31.948000
+duration: 5.103
+
+id: 5
+command: go 0 50 -60 100
+response: ok
+start time: 2021-01-28 15:13:32.027000
+end_time: 2021-01-28 15:13:34.084000
+duration: 2.057
+
+id: 6
+command: go 0 50 60 100
+response: ok
+start time: 2021-01-28 15:13:34.434000
+end_time: 2021-01-28 15:13:37.350000
+duration: 2.916
+
+id: 7
+command: flip l
+response: ok
+start time: 2021-01-28 15:13:37.387000
+end_time: 2021-01-28 15:13:40.923000
+duration: 3.536
+
+id: 8
+command: battery?
+response: 81
+
+start time: 2021-01-28 15:13:40.960000
+end_time: 2021-01-28 15:13:40.972000
+duration: 0.012
+
+id: 9
+command: land
+response: ok
+start time: 2021-01-28 15:13:40.976000
+end_time: 2021-01-28 15:13:44.541000
+duration: 3.565
+

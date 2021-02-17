@@ -1,0 +1,80 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-14 17:26:29.370000
+end_time: 2021-01-14 17:26:29.386000
+duration: 0.016
+
+id: 1
+command: sn?
+response: 0TQZGBVED000Z9
+start time: 2021-01-14 17:26:34.399000
+end_time: 2021-01-14 17:26:34.431000
+duration: 0.032
+
+id: 2
+command: takeoff
+response: ok
+start time: 2021-01-14 17:26:35.930000
+end_time: 2021-01-14 17:26:42.194000
+duration: 6.264
+
+id: 3
+command: mon
+response: ok
+start time: 2021-01-14 17:26:42.194000
+end_time: 2021-01-14 17:26:42.241000
+duration: 0.047
+
+id: 4
+command: mdirection 2
+response: ok
+start time: 2021-01-14 17:26:42.241000
+end_time: 2021-01-14 17:26:42.288000
+duration: 0.047
+
+id: 5
+command: go 0 0 100 50 m1
+response: ok
+start time: 2021-01-14 17:26:42.288000
+end_time: 2021-01-14 17:26:43.678000
+duration: 1.39
+
+id: 6
+command: jump 70 0 100 50 0 m1 m2
+response: ok
+start time: 2021-01-14 17:26:43.678000
+end_time: 2021-01-14 17:26:50.192000
+duration: 6.514
+
+id: 7
+command: jump 0 70 100 50 0 m2 m3
+response: error Motor stop
+start time: 2021-01-14 17:26:50.208000
+end_time: 2021-01-14 17:26:52.645000
+duration: 2.437
+
+id: 8
+command: jump -70 0 100 50 0 m3 m4
+response: error Motor stop
+start time: 2021-01-14 17:26:52.645000
+end_time: 2021-01-14 17:26:52.801000
+duration: 0.156
+
+id: 9
+command: jump 0 -70 100 50 0 m4 m1
+response: error Motor stop
+start time: 2021-01-14 17:26:52.801000
+end_time: 2021-01-14 17:26:52.848000
+duration: 0.047
+
+id: 10
+command: land
+response: error
+start time: 2021-01-14 17:26:52.848000
+end_time: 2021-01-14 17:26:52.895000
+duration: 0.047
+

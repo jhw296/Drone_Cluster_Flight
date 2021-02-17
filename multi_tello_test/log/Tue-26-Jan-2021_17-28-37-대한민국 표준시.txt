@@ -1,0 +1,190 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 17:28:38.073000
+end_time: 2021-01-26 17:28:38.087000
+duration: 0.014
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-26 17:28:43.110000
+end_time: 2021-01-26 17:28:43.136000
+duration: 0.026
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 17:28:44.109000
+end_time: 2021-01-26 17:28:44.153000
+duration: 0.044
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 17:28:44.155000
+end_time: 2021-01-26 17:28:44.203000
+duration: 0.048
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 17:28:44.205000
+end_time: 2021-01-26 17:28:47.876000
+duration: 3.671
+
+id: 5
+command: curve -55 -55 30 -100 0 0 50
+response: ok
+start time: 2021-01-26 17:28:48.575000
+end_time: 2021-01-26 17:28:53.741000
+duration: 5.166
+
+id: 6
+command: curve 55 55 0 100 0 -30 50
+response: ok
+start time: 2021-01-26 17:28:53.742000
+end_time: 2021-01-26 17:28:58.584000
+duration: 4.842
+
+id: 7
+command: go 0 0 180 100 m5
+response: ok
+start time: 2021-01-26 17:28:59.325000
+end_time: 2021-01-26 17:29:01.799000
+duration: 2.474
+
+id: 8
+command: curve -55 -55 0 -100 0 -30 50
+response: ok
+start time: 2021-01-26 17:29:04.098000
+end_time: 2021-01-26 17:29:09.041000
+duration: 4.943
+
+id: 9
+command: curve 55 55 -30 100 0 -60 50
+response: ok
+start time: 2021-01-26 17:29:09.042000
+end_time: 2021-01-26 17:29:13.784000
+duration: 4.742
+
+id: 10
+command: up 50
+response: error Motor stop
+start time: 2021-01-26 17:29:35.224000
+end_time: 2021-01-26 17:29:35.304000
+duration: 0.08
+
+id: 11
+command: battery?
+response: 46
+
+start time: 2021-01-26 17:29:35.305000
+end_time: 2021-01-26 17:29:35.354000
+duration: 0.049
+
+id: 12
+command: land
+response: error
+start time: 2021-01-26 17:29:35.355000
+end_time: 2021-01-26 17:29:35.405000
+duration: 0.05
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-26 17:28:38.073000
+end_time: 2021-01-26 17:28:38.097000
+duration: 0.024
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-26 17:28:43.109000
+end_time: 2021-01-26 17:28:43.144000
+duration: 0.035
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-26 17:28:44.109000
+end_time: 2021-01-26 17:28:44.167000
+duration: 0.058
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-26 17:28:44.171000
+end_time: 2021-01-26 17:28:44.219000
+duration: 0.048
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-26 17:28:44.220000
+end_time: 2021-01-26 17:28:48.549000
+duration: 4.329
+
+id: 5
+command: curve 55 55 -30 100 0 30 50
+response: ok
+start time: 2021-01-26 17:28:48.574000
+end_time: 2021-01-26 17:28:54.567000
+duration: 5.993
+
+id: 6
+command: curve -55 -55 30 -100 0 0 50
+response: ok
+start time: 2021-01-26 17:28:54.569000
+end_time: 2021-01-26 17:28:59.309000
+duration: 4.74
+
+id: 7
+command: go 60 0 0 100
+response: ok
+start time: 2021-01-26 17:28:59.326000
+end_time: 2021-01-26 17:29:01.912000
+duration: 2.586
+
+id: 8
+command: go 0 0 180 100 m1
+response: error No valid marker
+start time: 2021-01-26 17:29:01.913000
+end_time: 2021-01-26 17:29:04.054000
+duration: 2.141
+
+id: 9
+command: rc 0 0 -30 30
+response: None
+start time: 2021-01-26 17:29:04.099000
+end_time: None
+duration: None
+
+id: 10
+command: up 50
+response: error Motor stop
+start time: 2021-01-26 17:29:35.224000
+end_time: 2021-01-26 17:29:35.318000
+duration: 0.094
+
+id: 11
+command: battery?
+response: 58
+
+start time: 2021-01-26 17:29:35.322000
+end_time: 2021-01-26 17:29:35.367000
+duration: 0.045
+
+id: 12
+command: land
+response: error
+start time: 2021-01-26 17:29:35.371000
+end_time: 2021-01-26 17:29:35.417000
+duration: 0.046
+

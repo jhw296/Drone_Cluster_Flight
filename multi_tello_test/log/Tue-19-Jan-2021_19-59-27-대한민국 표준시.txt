@@ -1,0 +1,324 @@
+------
+Drone: 1
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 19:59:27.568000
+end_time: 2021-01-19 19:59:27.689000
+duration: 0.121
+
+id: 1
+command: sn?
+response: 0TQZGBVED001AC
+start time: 2021-01-19 19:59:32.609000
+end_time: 2021-01-19 19:59:32.775000
+duration: 0.166
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-19 19:59:33.611000
+end_time: 2021-01-19 19:59:33.769000
+duration: 0.158
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-19 19:59:33.771000
+end_time: 2021-01-19 19:59:33.930000
+duration: 0.159
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-19 19:59:33.933000
+end_time: 2021-01-19 19:59:41.814000
+duration: 7.881
+
+id: 5
+command: go 0 0 80 100 m8
+response: ok
+start time: 2021-01-19 19:59:41.926000
+end_time: 2021-01-19 19:59:43.293000
+duration: 1.367
+
+id: 6
+command: go 15 -50 20 100
+response: ok
+start time: 2021-01-19 19:59:43.486000
+end_time: 2021-01-19 19:59:45.793000
+duration: 2.307
+
+id: 7
+command: go 0 0 100 100 m5
+response: error No valid marker
+start time: 2021-01-19 19:59:45.833000
+end_time: 2021-01-19 19:59:47.991000
+duration: 2.158
+
+id: 8
+command: go -15 -40 -20 100
+response: ok
+start time: 2021-01-19 19:59:48.059000
+end_time: 2021-01-19 19:59:50.131000
+duration: 2.072
+
+id: 9
+command: go 0 0 80 100 m2
+response: ok
+start time: 2021-01-19 19:59:50.182000
+end_time: 2021-01-19 19:59:50.333000
+duration: 0.151
+
+id: 10
+command: go -10 -50 -20 100
+response: ok
+start time: 2021-01-19 19:59:51.190000
+end_time: 2021-01-19 19:59:53.699000
+duration: 2.509
+
+id: 11
+command: go 0 0 60 100 m3
+response: error No valid marker
+start time: 2021-01-19 19:59:53.764000
+end_time: 2021-01-19 19:59:55.942000
+duration: 2.178
+
+id: 12
+command: go 10 -50 20 100
+response: ok
+start time: 2021-01-19 19:59:55.988000
+end_time: 2021-01-19 19:59:58.389000
+duration: 2.401
+
+id: 13
+command: go 0 0 80 100 m3
+response: error No valid marker
+start time: 2021-01-19 19:59:58.437000
+end_time: 2021-01-19 20:00:00.582000
+duration: 2.145
+
+id: 14
+command: land
+response: ok
+start time: 2021-01-19 20:00:00.662000
+end_time: 2021-01-19 20:00:04.237000
+duration: 3.575
+
+------
+Drone: 2
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 19:59:27.571000
+end_time: 2021-01-19 19:59:27.684000
+duration: 0.113
+
+id: 1
+command: sn?
+response: 0TQDG4HEDB08M3
+start time: 2021-01-19 19:59:32.609000
+end_time: 2021-01-19 19:59:32.677000
+duration: 0.068
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-19 19:59:33.612000
+end_time: 2021-01-19 19:59:33.767000
+duration: 0.155
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-19 19:59:33.770000
+end_time: 2021-01-19 19:59:33.928000
+duration: 0.158
+
+id: 4
+command: takeoff
+response: error
+start time: 2021-01-19 19:59:33.931000
+end_time: 2021-01-19 19:59:33.951000
+duration: 0.02
+
+id: 5
+command: go 0 0 80 100 m4
+response: error Motor stop
+start time: 2021-01-19 19:59:41.927000
+end_time: 2021-01-19 19:59:42.119000
+duration: 0.192
+
+id: 6
+command: go -15 40 -20 100
+response: error Motor stop
+start time: 2021-01-19 19:59:43.485000
+end_time: 2021-01-19 19:59:43.642000
+duration: 0.157
+
+id: 7
+command: go 0 0 60 100 m1
+response: error Motor stop
+start time: 2021-01-19 19:59:45.832000
+end_time: 2021-01-19 19:59:45.995000
+duration: 0.163
+
+id: 8
+command: go 15 40 20 100
+response: error Motor stop
+start time: 2021-01-19 19:59:48.061000
+end_time: 2021-01-19 19:59:48.180000
+duration: 0.119
+
+id: 9
+command: go 0 0 80 100 m6
+response: error Motor stop
+start time: 2021-01-19 19:59:50.183000
+end_time: 2021-01-19 19:59:50.322000
+duration: 0.139
+
+id: 10
+command: go 10 50 20 100
+response: error Motor stop
+start time: 2021-01-19 19:59:51.192000
+end_time: 2021-01-19 19:59:51.341000
+duration: 0.149
+
+id: 11
+command: go 0 0 100 100 m7
+response: error Motor stop
+start time: 2021-01-19 19:59:53.765000
+end_time: 2021-01-19 19:59:53.894000
+duration: 0.129
+
+id: 12
+command: go -10 50 -20 100
+response: error Motor stop
+start time: 2021-01-19 19:59:55.989000
+end_time: 2021-01-19 19:59:56.138000
+duration: 0.149
+
+id: 13
+command: go 0 0 80 100 m7
+response: error Motor stop
+start time: 2021-01-19 19:59:58.436000
+end_time: 2021-01-19 19:59:58.584000
+duration: 0.148
+
+id: 14
+command: land
+response: error
+start time: 2021-01-19 20:00:00.660000
+end_time: 2021-01-19 20:00:00.678000
+duration: 0.018
+
+------
+Drone: 3
+
+id: 0
+command: command
+response: ok
+start time: 2021-01-19 19:59:27.564000
+end_time: 2021-01-19 19:59:27.671000
+duration: 0.107
+
+id: 1
+command: sn?
+response: 0TQDG6JEDB4FYH
+start time: 2021-01-19 19:59:32.610000
+end_time: 2021-01-19 19:59:32.775000
+duration: 0.165
+
+id: 2
+command: mon
+response: ok
+start time: 2021-01-19 19:59:33.613000
+end_time: 2021-01-19 19:59:33.786000
+duration: 0.173
+
+id: 3
+command: mdirection 2
+response: ok
+start time: 2021-01-19 19:59:33.790000
+end_time: 2021-01-19 19:59:33.933000
+duration: 0.143
+
+id: 4
+command: takeoff
+response: ok
+start time: 2021-01-19 19:59:33.935000
+end_time: 2021-01-19 19:59:39.853000
+duration: 5.918
+
+id: 5
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-19 19:59:41.926000
+end_time: 2021-01-19 19:59:43.423000
+duration: 1.497
+
+id: 6
+command: cw 45
+response: ok
+start time: 2021-01-19 19:59:43.485000
+end_time: 2021-01-19 19:59:44.804000
+duration: 1.319
+
+id: 7
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-19 19:59:45.832000
+end_time: 2021-01-19 19:59:45.973000
+duration: 0.141
+
+id: 8
+command: cw 45
+response: ok
+start time: 2021-01-19 19:59:48.060000
+end_time: 2021-01-19 19:59:49.494000
+duration: 1.434
+
+id: 9
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-19 19:59:50.182000
+end_time: 2021-01-19 19:59:51.128000
+duration: 0.946
+
+id: 10
+command: cw 45
+response: ok
+start time: 2021-01-19 19:59:51.193000
+end_time: 2021-01-19 19:59:52.560000
+duration: 1.367
+
+id: 11
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-19 19:59:53.765000
+end_time: 2021-01-19 19:59:53.930000
+duration: 0.165
+
+id: 12
+command: cw 45
+response: ok
+start time: 2021-01-19 19:59:55.989000
+end_time: 2021-01-19 19:59:57.297000
+duration: 1.308
+
+id: 13
+command: go 0 0 80 100 m1
+response: ok
+start time: 2021-01-19 19:59:58.435000
+end_time: 2021-01-19 19:59:58.777000
+duration: 0.342
+
+id: 14
+command: land
+response: ok
+start time: 2021-01-19 20:00:00.661000
+end_time: 2021-01-19 20:00:04.336000
+duration: 3.675
+
